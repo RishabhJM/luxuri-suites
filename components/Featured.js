@@ -20,8 +20,8 @@ export default function Featured() {
   }
   return (
     <div className="bg-black text-white">
-      <div className="text-3xl md:text-5xl lg:text-7xl p-6 border-b-[1px]">
-        <h1>
+      <div className="text-4xl md:text-6xl lg:text-8xl px-4 py-6 sm:p-8 border-b-[1px] border-[#555555]">
+        <h1 className="sm:px-4">
           Featured <span className="font-bold">SUITES</span>
         </h1>
       </div>
@@ -36,24 +36,21 @@ export default function Featured() {
           >
             {PROPERTIES_DATA[hotel].images.map((t) => (
               <div className="relative w-fit h-[85vh]" key={t}>
-                <Image
-                  src={t}
-                  className="object-cover"
-                  fill
-                  alt=""
-                ></Image>
+                <Image src={t} className="object-cover" fill alt=""></Image>
               </div>
             ))}
           </SimpleSlider>
         </div>
-        <div className="md:w-2/5 p-6 flex flex-col justify-between">
+        <div className="md:w-2/5 p-6 md:p-12 lg:p-16 flex flex-col justify-between">
           <div>
-            <h2 className="font text-3xl md:text-5xl lg:text-7xl font-bold pb-6">
+            <h2 className="font text-3xl md:text-5xl lg:text-8xl font-bold pb-6">
               {PROPERTIES_DATA[hotel].title}
             </h2>
-            <p className="pb-4">{PROPERTIES_DATA[hotel].description}</p>
+            <p className="pb-4 text-xl font-extralight">
+              {PROPERTIES_DATA[hotel].description}
+            </p>
           </div>
-          <div className="flex justify-between md:pb-[18px]">
+          <div className="flex justify-between items-center md:pb-[18px]">
             <div className="flex gap-4">
               <div
                 className={
@@ -68,7 +65,7 @@ export default function Featured() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
                 >
                   <path
                     stroke-linecap="round"
@@ -92,7 +89,7 @@ export default function Featured() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
                 >
                   <path
                     stroke-linecap="round"
@@ -103,7 +100,7 @@ export default function Featured() {
               </div>
             </div>
             <button
-              className="rounded-full  px-4 text-xl text-white bg-[#1E1E1E] font-semibold"
+              className="rounded-full h-[60px]  xlg:w-[240px] px-4 py-2 text-md xsm:text-lg lg:text-2xl xlg:text-3xl text-white bg-[#1E1E1E]"
               type="button"
               onClick={() => Router.push(`/suites/${hotel}`)}
             >
