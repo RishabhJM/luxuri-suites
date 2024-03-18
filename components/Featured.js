@@ -20,7 +20,7 @@ export default function Featured() {
   }
   return (
     <div className="bg-black text-white">
-      <div className="text-4xl md:text-6xl lg:text-8xl px-4 py-6 sm:p-8 border-b-[1px] border-[#555555]">
+      <div className="text-4xl md:text-6xl lg:text-8xl px-4 sm:p-8 border-b-[1px] border-[#555555]">
         <h1 className="sm:px-4">
           Featured <span className="font-bold">SUITES</span>
         </h1>
@@ -35,13 +35,13 @@ export default function Featured() {
             arrows={false}
           >
             {PROPERTIES_DATA[hotel].images.map((t) => (
-              <div className="relative w-fit h-[85vh]" key={t}>
+              <div className="relative w-fit h-[90vh]" key={t}>
                 <Image src={t} className="object-cover" fill alt=""></Image>
               </div>
             ))}
           </SimpleSlider>
         </div>
-        <div className="md:w-2/5 p-6 md:p-12 lg:p-16 flex flex-col justify-between">
+        <div className="md:w-2/5 p-6 md:p-10 lg:p-16 flex flex-col justify-between">
           <div>
             <h2 className="font text-3xl md:text-5xl lg:text-8xl font-bold pb-6">
               {PROPERTIES_DATA[hotel].title}
@@ -50,8 +50,8 @@ export default function Featured() {
               {PROPERTIES_DATA[hotel].description}
             </p>
           </div>
-          <div className="flex justify-between items-center md:pb-[18px]">
-            <div className="flex gap-4">
+          <div className="flex justify-between items-center">
+            <div className="flex gap-4 md:gap-6 lg:gap-8">
               <div
                 className={
                   "p-2 font-bold border-2 border-white cursor-pointer " +
@@ -100,7 +100,7 @@ export default function Featured() {
               </div>
             </div>
             <button
-              className="rounded-full h-[60px]  xlg:w-[240px] px-4 py-2 text-md xsm:text-lg lg:text-2xl xlg:text-3xl text-white bg-[#1E1E1E]"
+              className="rounded-full h-[60px] w-fit px-4 py-auto text-md xsm:text-md lg:text-2xl xlg:text-3xl text-white bg-[#1E1E1E]"
               type="button"
               onClick={() => Router.push(`/suites/${hotel}`)}
             >

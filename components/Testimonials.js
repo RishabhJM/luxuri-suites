@@ -15,34 +15,43 @@ export default function Testimonials() {
     }
   }
   return (
-    <div className="py-8 md:py-16">
+    <div className="py-10 md:pt-12">
       <div className="">
         <h2 className="strike-text">
-          {" "}
           <span className="font-bold">TESTIMONIALS</span>
         </h2>
       </div>
-      <div className="flex lg:flex-row flex-col justify-center py-4">
+      <div className="flex lg:flex-row flex-col justify-center p-2 lg:p-12">
         <div className="px-10 justify-center flex">
-          <Image src={TESTIMONIALS_DATA[testimonial].src} width={400} height={500} alt=""></Image>
+          <Image
+            src={TESTIMONIALS_DATA[testimonial].src}
+            width={400}
+            height={500}
+            alt=""
+          ></Image>
         </div>
         <div className="pt-10  px-10 md:px-20 lg:w-1/2 flex flex-col justify-between text-[#454545]">
           <p className="text-xl md:text-2xl lg:text-4xl tracking-wide mb-4">
             {TESTIMONIALS_DATA[testimonial].testimonial}
           </p>
           <div>
-            <h3 className="text-4xl">{TESTIMONIALS_DATA[testimonial].name}</h3>
-            <hr className="h-[2px] my-2 bg-[#A7A098] border-0 rounded " />
-            <p className="text-lg font-bold py-2">
-              {TESTIMONIALS_DATA[testimonial].date}
-            </p>
+            <div className="pb-6">
+              <h3 className="text-4xl">
+                {TESTIMONIALS_DATA[testimonial].name}
+              </h3>
+              <hr className="h-[2px] my-2 bg-[#A7A098] border-0 rounded " />
+              <p className="text-lg font-bold pb-2">
+                {TESTIMONIALS_DATA[testimonial].date}
+              </p>
+            </div>
+
             <div className="flex gap-2">
               <div
                 className={
-                  "p-2 font-bold border-2 border-black cursor-pointer " +
+                  "p-2 font-bold border-2 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === 0
-                    ? "bg-white text-black"
-                    : "bg-black text-white")
+                    ? "bg-white text-[#1E1E1E]"
+                    : "bg-[#1E1E1E] text-white")
                 }
                 onClick={() => PrevPage()}
               >
@@ -52,7 +61,7 @@ export default function Testimonials() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[48px] h-auto"
                 >
                   <path
                     stroke-linecap="round"
@@ -63,10 +72,10 @@ export default function Testimonials() {
               </div>
               <div
                 className={
-                  "p-2 font-bold border-2 border-black cursor-pointer " +
+                  "p-2 font-bold border-2 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === TESTIMONIALS_DATA.length - 1
-                    ? "bg-white text-black"
-                    : "bg-black text-white")
+                    ? "bg-white text-[#1E1E1E]"
+                    : "bg-[#1E1E1E] text-white")
                 }
                 onClick={() => nextPage()}
               >
@@ -76,7 +85,7 @@ export default function Testimonials() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  class="w-6 h-6"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[48px] h-auto"
                 >
                   <path
                     stroke-linecap="round"
