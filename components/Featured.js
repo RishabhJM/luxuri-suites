@@ -31,6 +31,7 @@ export default function Featured() {
             src="/carousel.png"
             className="object-cover"
             fill
+            alt=""
           ></Image>
           {/* <SimpleSlider
         dots={true}
@@ -39,7 +40,7 @@ export default function Featured() {
         infinite={false}
       >
         {PROPERTIES_DATA[hotel].images.map((t) => (
-          <Image src={t} className="object-cover" fill ></Image>
+          <Image src={t} className="object-cover" fill alt=""></Image>
         ))}
       </SimpleSlider> */}
         </div>

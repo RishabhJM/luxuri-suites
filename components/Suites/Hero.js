@@ -24,6 +24,7 @@ export default function Hero({ suite }) {
             className="object-cover"
             src={PROPERTIES_DATA[0].images[hotel]}
             fill
+            alt=""
           ></Image>
         </div>
         <div className="md:w-2/5 flex flex-col">
@@ -33,6 +34,7 @@ export default function Hero({ suite }) {
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[1]}
                 fill
+                alt=""
               ></Image>
             </div>
             <div className="w-[500px] h-[200px] relative">
@@ -40,6 +42,7 @@ export default function Hero({ suite }) {
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[2]}
                 fill
+                alt=""
               ></Image>
             </div>
           </div>
@@ -49,6 +52,7 @@ export default function Hero({ suite }) {
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[3]}
                 fill
+                alt=""
               ></Image>
             </div>
             <div className="w-[500px] h-[200px] relative">
@@ -56,6 +60,7 @@ export default function Hero({ suite }) {
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[4]}
                 fill
+                alt=""
               ></Image>
             </div>
           </div>

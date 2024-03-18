@@ -24,7 +24,7 @@ export default function Testimonials() {
       </div>
       <div className="flex lg:flex-row flex-col justify-center">
         <div className="px-10 justify-center flex">
-          <Image src={TESTIMONIALS_DATA[testimonial].src} width={400} height={500}></Image>
+          <Image src={TESTIMONIALS_DATA[testimonial].src} width={400} height={500} alt=""></Image>
         </div>
         <div className="p-10 md:px-20 lg:w-1/2 flex flex-col justify-between text-[#454545]">
           <p className="text-xl md:text-2xl lg:text-4xl tracking-wide mb-4">

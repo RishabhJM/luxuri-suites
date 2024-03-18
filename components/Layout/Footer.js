@@ -1,5 +1,4 @@
-import { FOOTER_LINKS, SOCIAL_LINKS } from "@/constants/constants";
-import Image from "next/image";
+import { FOOTER_LINKS } from "@/constants/constants";
 import Link from "next/link";
 import Socials from "../Misc/Socials";
 

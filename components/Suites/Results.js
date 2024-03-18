@@ -139,7 +139,7 @@ export default function Results({ suite }) {
       </div>
       <div>
         {ROOMS_DATA.map((room) => (
-          <div className="bg-[#D9D9D9] rounded-3xl p-6 sm:p-10 flex md:flex-row flex-col justify-between my-10">
+          <div className="bg-[#D9D9D9] rounded-3xl p-6 sm:p-10 flex md:flex-row flex-col justify-between my-10" key={room.title}>
             <div className="w-full md:w-1/3">
               <SimpleSlider
                 dots={true}
@@ -149,11 +149,12 @@ export default function Results({ suite }) {
                 arrows={true}
               >
                 {room.images.map((t) => (
-                  <div className="relative w-[200px] h-[300px]">
+                  <div className="relative w-[200px] h-[300px]" key={t}>
                     <Image
                       src={t}
                       className="object-cover rounded-3xl"
                       fill
+                      alt=""
                     ></Image>
                   </div>
                 ))}
@@ -163,7 +164,7 @@ export default function Results({ suite }) {
               <div>
                 <h3 className="text-3xl pb-6">{room.title}</h3>
                 {room.description.map((t) => (
-                  <p className="text-sm font-medium">{t}</p>
+                  <p className="text-sm font-medium" key={t}>{t}</p>
                 ))}
               </div>
               <div className="pt-6">{room.amenities}</div>

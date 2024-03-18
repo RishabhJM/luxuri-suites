@@ -1,5 +1,4 @@
 import { NAV_LINKS } from "@/constants/constants";
-import Image from "next/image";
 import Link from "next/link";
 import Router from "next/router";
 import { useState } from "react";
