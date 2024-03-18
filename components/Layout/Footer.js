@@ -3,7 +3,7 @@ import Link from "next/link";
 import Socials from "../Misc/Socials";
 
 export default function Footer() {
-  const inputStyle = "rounded-2xl p-4 mb-8 border border-gray-500 text-black";
+  const inputStyle = "rounded-xl p-2 mb-8 border border-gray-500 text-black placeholder-black";
   return (
     <div className=" h-full bg-black text-white gap-8 justify-between px-4 py-8 md:p-16 lg:p-24 pb-16">
       <div className="flex lg:flex-row flex-col justify-between border-b-2 border-gray-500 pb-10">
@@ -19,7 +19,7 @@ export default function Footer() {
           <input className={inputStyle} type="text" placeholder="Email" />
           <textarea className={inputStyle} type="text" placeholder="Message" />
           <span className="pb-4">
-            <input type="checkbox" className="bg-black"/>
+            <input type="checkbox" className="bg-black accent-gray-500"/>
             <span className="px-2">I would like to recieve the newsletter.</span>
           </span>
           <button type="submit" className="rounded-xl bg-[#302C33] text-white sm:w-[160px] py-2 px-4 font-bold">

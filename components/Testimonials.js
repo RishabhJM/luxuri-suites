@@ -49,7 +49,7 @@ export default function Testimonials() {
             <div className="flex gap-2">
               <div
                 className={
-                  "p-2 font-bold border-4 border-[#1E1E1E] cursor-pointer " +
+                  "p-2 font-bold border-2 md:border-4 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === 0
                     ? "bg-white text-[#1E1E1E]"
                     : "bg-[#1E1E1E] text-white")
@@ -73,7 +73,7 @@ export default function Testimonials() {
               </div>
               <div
                 className={
-                  "p-2 font-bold border-4 border-[#1E1E1E] cursor-pointer " +
+                  "p-2 font-bold border-2 md:border-4 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === TESTIMONIALS_DATA.length - 1
                     ? "bg-white text-[#1E1E1E]"
                     : "bg-[#1E1E1E] text-white")

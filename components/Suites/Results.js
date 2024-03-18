@@ -44,7 +44,7 @@ export default function Results({ suite }) {
     <div className="bg-[#F0F0F0] px-10 py-20">
       <h2 className="text-5xl lg:text-7xl font-bold">{PROPERTIES_DATA[0].title}</h2>
       <div className="px-6 py-6 w-auto md:w-fit bg-white rounded-3xl flex md:flex-row flex-col my-10 justify-center items-center">
-        <div className="px-4 flex items-center border-b-2 md:border-r-2 md:border-b-0 border-black">
+        <div className="w-full md:w-1/3 px-4 flex items-center justify-center py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -76,7 +76,7 @@ export default function Results({ suite }) {
             />
           </div>
         </div>
-        <div className="px-4 flex items-center border-b-2 md:border-r-2 md:border-b-0 border-black">
+        <div className="w-full md:w-1/3 px-4 flex items-center border-y-2 md:border-x-2 md:border-y-0 justify-center border-black py-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -108,7 +108,7 @@ export default function Results({ suite }) {
             />
           </div>
         </div>
-        <div className="px-4 flex items-center">
+        <div className="w-full md:w-1/3 px-4 flex items-center py-2 justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -130,6 +130,7 @@ export default function Results({ suite }) {
             <input
               type="number"
               id="adults"
+              className="w-[160px]"
               placeholder="- Add Guest +"
               value={guests}
               onChange={handleGuests}
@@ -160,7 +161,7 @@ export default function Results({ suite }) {
                 ))}
               </SimpleSlider>
             </div>
-            <div className="px-10 py-10 md:w-1/3 flex flex-col justify-between">
+            <div className="md:px-10 py-10 md:w-1/3 flex flex-col justify-between">
               <div>
                 <h3 className="text-3xl pb-6">{room.title}</h3>
                 {room.description.map((t) => (
@@ -169,38 +170,38 @@ export default function Results({ suite }) {
               </div>
               <div className="pt-6">{room.amenities}</div>
             </div>
-            <div className="md:w-1/3 flex md:flex-row flex-col justify-between">
-              <div className="md:w-1/2 flex flex-col justify-center">
-                <div className="flex flex-col items-center pb-2 md:pb-10">
-                  <p>Select number of rooms</p>
+            <div className="md:w-1/3 flex  justify-between">
+              <div className="md:w-1/2 flex flex-col justify-between sm:justify-center">
+                <div className="flex flex-col sm:items-center pb-2 md:pb-10">
+                  <p className="text-sm sm:text-md">Select number of rooms</p>
                   <div className="flex">
                     <button
-                      className="rounded-full border border-black w-10 h-10 flex items-center justify-center text-3xl"
+                      className="rounded-full border p-auto border-black w-6 h-6 sm:w-10 sm:h-10 flex items-center justify-center sm:text-3xl"
                       onClick={decreaseRooms}
                     >
                       -
                     </button>
-                    <p className="font-bold text-3xl px-4">{noOfRooms}</p>
+                    <p className="font-bold sm:text-3xl px-4">{noOfRooms}</p>
                     <button
-                      className="rounded-full border border-black w-10 h-10 flex items-center justify-center text-3xl"
+                      className="rounded-full border p-auto border-black w-6 h-6 sm:w-10 sm:h-10 flex items-center justify-center sm:text-3xl"
                       onClick={increaseRooms}
                     >
                       +
                     </button>
                   </div>
                 </div>
-                <div className="flex flex-col items-center">
-                  <p>Select number of adults</p>
+                <div className="flex flex-col sm:items-center">
+                  <p className="text-sm sm:text-md">Select number of adults</p>
                   <div className="flex">
                     <button
-                      className="rounded-full border border-black w-10 h-10 flex items-center justify-center text-3xl"
+                      className="rounded-full border p-auto border-black w-6 h-6 sm:w-10 sm:h-10 flex items-center justify-center sm:text-3xl"
                       onClick={decreaseAdults}
                     >
                       -
                     </button>
-                    <p className="font-bold text-3xl px-4">{noOfAdults}</p>
+                    <p className="font-bold sm:text-3xl px-4">{noOfAdults}</p>
                     <button
-                      className="rounded-full border border-black w-10 h-10 flex items-center justify-center text-3xl"
+                      className="rounded-full border p-auto border-black w-6 h-6 sm:w-10 sm:h-10 flex items-center justify-center sm:text-3xl"
                       onClick={increaseAdults}
                     >
                       +
@@ -208,9 +209,9 @@ export default function Results({ suite }) {
                   </div>
                 </div>
               </div>
-              <div className="md:w-1/2 flex flex-col items-center justify-center pt-10">
-                <h4 className="text-3xl pb-6">USD {noOfRooms * room.rate}</h4>
-                <p className="pb-2">USD {room.rate} per/night</p>
+              <div className="md:w-1/2 flex flex-col items-center justify-center md:pt-10 px-4">
+                <h4 className="text-xl font-bold sm:text-3xl pb-6">USD {noOfRooms * room.rate}</h4>
+                <p className="pb-2 text-md sm:text-xl text-center">USD {room.rate} per/night</p>
                 <button className="border-2 border-black p-2 rounded-2xl font-bold w-fit">
                   RESERVE
                 </button>

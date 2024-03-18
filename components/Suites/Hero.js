@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 
 export default function Hero({ suite }) {
-  const featureClass = "p-4 md:p-8 lg:p-12 group flex items-center";
+  const featureClass = " group flex items-center";
   const [hotel, setHotel] = useState(0);
 
   function nextPage() {
@@ -17,7 +17,7 @@ export default function Hero({ suite }) {
     }
   }
   return (
-    <div className="md:px-10 pb-4 bg-black">
+    <div className="md:px-10 bg-black">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-3/5 h-[80vh] relative">
           <Image
@@ -27,9 +27,9 @@ export default function Hero({ suite }) {
             alt=""
           ></Image>
         </div>
-        <div className="md:w-2/5 flex flex-col">
+        <div className="md:w-2/5 h-[80vh] flex flex-col">
           <div className="flex">
-            <div className="w-[500px] h-[200px] relative">
+            <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[1]}
@@ -37,7 +37,7 @@ export default function Hero({ suite }) {
                 alt=""
               ></Image>
             </div>
-            <div className="w-[500px] h-[200px] relative">
+            <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[2]}
@@ -47,7 +47,7 @@ export default function Hero({ suite }) {
             </div>
           </div>
           <div className="flex">
-            <div className="w-[500px] h-[200px] relative">
+            <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[3]}
@@ -55,7 +55,7 @@ export default function Hero({ suite }) {
                 alt=""
               ></Image>
             </div>
-            <div className="w-[500px] h-[200px] relative">
+            <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[0].images[4]}
@@ -64,8 +64,8 @@ export default function Hero({ suite }) {
               ></Image>
             </div>
           </div>
-          <div className="h-fit flex flex-col justify-center py-6">
-            <div className="flex px-6 justify-center">
+          <div className="flex flex-col justify-between py-16 md:py-16 lg:py-20 h-[40vh]">
+            <div className="flex px-16 lg:px-24 justify-between">
               <div className={featureClass}>
                 <h1 className="text-white hidden group-hover:block text-center">WIFI</h1>
 
@@ -116,7 +116,7 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
             </div>
-            <div className="flex px-6 justify-center">
+            <div className="flex px-16 lg:px-24 justify-between">
               <div className={featureClass}>
               <h1 className="text-white hidden group-hover:block text-center">GYM</h1>
                 <svg
@@ -169,7 +169,7 @@ export default function Hero({ suite }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-start gap-4 px-4 md:px-0">
+      <div className="flex justify-start gap-4 px-8 md:px-0 py-8">
         <div
           className={
             "p-2 font-bold border-2 border-white cursor-pointer  " +
@@ -183,7 +183,7 @@ export default function Hero({ suite }) {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
           >
             <path
               stroke-linecap="round"
@@ -207,7 +207,7 @@ export default function Hero({ suite }) {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6"
+            className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
           >
             <path
               stroke-linecap="round"
