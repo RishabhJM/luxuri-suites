@@ -17,7 +17,7 @@ export default function Hero({ suite }) {
     }
   }
   return (
-    <div className="px-10 pb-6 bg-black">
+    <div className="md:px-10 pb-6 bg-black">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-3/5 h-[80vh] relative">
           <Image
@@ -169,7 +169,7 @@ export default function Hero({ suite }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-start gap-2">
+      <div className="flex justify-start gap-2 px-4 md:px-0">
         <div
           className={
             "p-2 font-bold border-2 border-white cursor-pointer  " +

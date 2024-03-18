@@ -1,2 +1,4 @@
 LEFT TO DO
 1. resutls and hero in suites doesnt dupport dynamic suites right now have selected value as 0
+2. testimonials text with horizontal line
+3. mainpage slide scroller

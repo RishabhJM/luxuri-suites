@@ -1,10 +1,13 @@
 import { NAV_LINKS } from "@/constants/constants";
 import Link from "next/link";
-import Router from "next/router";
+import Router, { useRouter } from "next/router";
 import { useState } from "react";
 
 export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
+  const router = useRouter();
+  const isActive = (href) => router.pathname.includes(href);
+  // console.log(router.pathname);
   return (
     <div className="flex lg:flex-row flex-col justify-between py-6 px-10 text-white bg-black">
       <div className="items-center flex justify-between">
@@ -58,7 +61,7 @@ export default function Nav() {
         <div className="lg:hidden w-auto flex justify-center text-center">
           <div className="flex flex-col">
             {NAV_LINKS.map((item) => (
-              <Link href={item.href} key={item.key} className="p-4">
+              <Link href={item.href} key={item.key} className={isActive(item.href)? "p-4 text-[#FD9E0F]": "p-4 text-white"}>
                 {item.label}
               </Link>
             ))}
@@ -68,7 +71,7 @@ export default function Nav() {
       <div className="flex lg:w-3/4 text-2xl">
         <div className="hidden lg:flex justify-end">
           {NAV_LINKS.map((item) => (
-            <Link href={item.href} key={item.key} className="p-4">
+            <Link href={item.href} key={item.key} className={isActive(item.href)? "p-4 text-[#FD9E0F]": "p-4 text-white"}>
               {item.label}
             </Link>
           ))}

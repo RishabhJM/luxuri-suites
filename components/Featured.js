@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import SimpleSlider from "./Misc/SimpleSlider";
 import { PROPERTIES_DATA } from "@/constants/constants";
 import Suite from "@/pages/suites/[suite]";
-import  Router  from "next/router";
+import Router from "next/router";
 
 export default function Featured() {
   const [hotel, setHotel] = useState(0);
@@ -26,23 +26,25 @@ export default function Featured() {
         </h1>
       </div>
       <div className="flex md:flex-row flex-col">
-        <div className="md:w-3/5 h-[90vh] relative">
-          <Image
-            src="/carousel.png"
-            className="object-cover"
-            fill
-            alt=""
-          ></Image>
-          {/* <SimpleSlider
-        dots={true}
-        noOfSlides={1}
-        autoPlay={false}
-        infinite={false}
-      >
-        {PROPERTIES_DATA[hotel].images.map((t) => (
-          <Image src={t} className="object-cover" fill alt=""></Image>
-        ))}
-      </SimpleSlider> */}
+        <div className="w-full md:w-3/5 h-[90vh]">
+          <SimpleSlider
+            dots={true}
+            noOfSlides={1}
+            autoPlay={false}
+            infinite={false}
+            arrows={false}
+          >
+            {PROPERTIES_DATA[hotel].images.map((t) => (
+              <div className="relative w-fit h-[85vh]" key={t}>
+                <Image
+                  src={t}
+                  className="object-cover"
+                  fill
+                  alt=""
+                ></Image>
+              </div>
+            ))}
+          </SimpleSlider>
         </div>
         <div className="md:w-2/5 p-6 flex flex-col justify-between">
           <div>
