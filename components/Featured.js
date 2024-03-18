@@ -54,7 +54,7 @@ export default function Featured() {
             <div className="flex gap-4 md:gap-6 lg:gap-8">
               <div
                 className={
-                  "p-2 font-bold border-2 border-white cursor-pointer " +
+                  "p-2 font-bold border-4 border-white cursor-pointer " +
                   (hotel === 0 ? "bg-black text-white" : "bg-white text-black")
                 }
                 onClick={() => PrevPage()}
@@ -76,7 +76,7 @@ export default function Featured() {
               </div>
               <div
                 className={
-                  "p-2 font-bold border-2 border-white cursor-pointer " +
+                  "p-2 font-bold border-4 border-white cursor-pointer " +
                   (hotel === PROPERTIES_DATA.length - 1
                     ? "bg-black text-white"
                     : "bg-white text-black")

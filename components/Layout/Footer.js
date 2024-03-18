@@ -5,7 +5,7 @@ import Socials from "../Misc/Socials";
 export default function Footer() {
   const inputStyle = "rounded-2xl p-4 mb-8 border border-gray-500 text-black";
   return (
-    <div className=" h-full bg-black text-white gap-8 justify-between px-2 py-8 md:p-16 lg:p-24 pb-16">
+    <div className=" h-full bg-black text-white gap-8 justify-between px-4 py-8 md:p-16 lg:p-24 pb-16">
       <div className="flex lg:flex-row flex-col justify-between border-b-2 border-gray-500 pb-10">
         <div className="flex flex-col justify-between lg:w-1/3 pb-6">
           <div className="flex flex-col justify-between my-4">

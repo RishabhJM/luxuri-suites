@@ -16,7 +16,8 @@ export default function Testimonials() {
   }
   return (
     <div className="py-10 md:pt-12">
-      <div className="">
+      <div className="flex">
+        <div className="border-b-[3px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
         <h2 className="strike-text">
           <span className="font-bold">TESTIMONIALS</span>
         </h2>
@@ -30,7 +31,7 @@ export default function Testimonials() {
             alt=""
           ></Image>
         </div>
-        <div className="pt-10  px-10 md:px-20 lg:w-1/2 flex flex-col justify-between text-[#454545]">
+        <div className="pt-10 px-10 md:px-12 lg:w-1/2 flex flex-col justify-between text-[#454545]">
           <p className="text-xl md:text-2xl lg:text-4xl tracking-wide mb-4">
             {TESTIMONIALS_DATA[testimonial].testimonial}
           </p>
@@ -48,7 +49,7 @@ export default function Testimonials() {
             <div className="flex gap-2">
               <div
                 className={
-                  "p-2 font-bold border-2 border-[#1E1E1E] cursor-pointer " +
+                  "p-2 font-bold border-4 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === 0
                     ? "bg-white text-[#1E1E1E]"
                     : "bg-[#1E1E1E] text-white")
@@ -72,7 +73,7 @@ export default function Testimonials() {
               </div>
               <div
                 className={
-                  "p-2 font-bold border-2 border-[#1E1E1E] cursor-pointer " +
+                  "p-2 font-bold border-4 border-[#1E1E1E] cursor-pointer " +
                   (testimonial === TESTIMONIALS_DATA.length - 1
                     ? "bg-white text-[#1E1E1E]"
                     : "bg-[#1E1E1E] text-white")

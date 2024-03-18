@@ -13,7 +13,8 @@
 
 .strike-text{
   width: 100%;
-  text-align: center;
+  text-align: left;
+  border-radius: 2px;
   border-bottom: 3px solid #A7A098;
   line-height: 0.1em;
   margin: 10px 0 20px;
