@@ -1,13 +1,18 @@
 import "@/styles/globals.css";
-import {Raleway} from 'next/font/google'
+import {Raleway, Montserrat} from 'next/font/google'
 
 const raleway = Raleway({
   subsets:['latin'],
   variable:"--font-raleway"
 })
 
+const montserrat = Montserrat({
+  subsets:['latin'],
+  variable:"--font-montserrat"
+})
+
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${raleway.variable} font-sans`}><Component {...pageProps} /></main>
+    <main className={`${raleway.variable} ${montserrat.variable} font-mont`}><Component {...pageProps} /></main>
   );
 }

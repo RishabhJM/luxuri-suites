@@ -51,10 +51,10 @@ export default function Featured() {
             <h2 className="font text-3xl md:text-5xl lg:text-7xl font-bold pb-6">
               {PROPERTIES_DATA[hotel].title}
             </h2>
-            <p className="">{PROPERTIES_DATA[hotel].description}</p>
+            <p className="pb-4">{PROPERTIES_DATA[hotel].description}</p>
           </div>
-          <div className="flex justify-between">
-            <div className="flex gap-2">
+          <div className="flex justify-between md:pb-[18px]">
+            <div className="flex gap-4">
               <div
                 className={
                   "p-2 font-bold border-2 border-white cursor-pointer " +

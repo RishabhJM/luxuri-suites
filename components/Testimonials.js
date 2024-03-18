@@ -15,18 +15,18 @@ export default function Testimonials() {
     }
   }
   return (
-    <div className="py-16">
+    <div className="py-8 md:py-16">
       <div className="">
         <h2 className="strike-text">
           {" "}
           <span className="font-bold">TESTIMONIALS</span>
         </h2>
       </div>
-      <div className="flex lg:flex-row flex-col justify-center">
+      <div className="flex lg:flex-row flex-col justify-center py-4">
         <div className="px-10 justify-center flex">
           <Image src={TESTIMONIALS_DATA[testimonial].src} width={400} height={500} alt=""></Image>
         </div>
-        <div className="p-10 md:px-20 lg:w-1/2 flex flex-col justify-between text-[#454545]">
+        <div className="pt-10  px-10 md:px-20 lg:w-1/2 flex flex-col justify-between text-[#454545]">
           <p className="text-xl md:text-2xl lg:text-4xl tracking-wide mb-4">
             {TESTIMONIALS_DATA[testimonial].testimonial}
           </p>
