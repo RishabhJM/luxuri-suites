@@ -7,18 +7,17 @@ export default function Nav() {
   const [openNav, setOpenNav] = useState(false);
   const router = useRouter();
   const isActive = (href) => router.pathname.includes(href);
-  // console.log(router.pathname);
   return (
-    <div className="flex lg:flex-row flex-col justify-between py-6 px-10 text-white bg-black">
+    <div className="w-screen flex lg:flex-row flex-col justify-between py-4 px-6 text-white bg-black fixed z-30 bg-opacity-75">
       <div className="items-center flex justify-between">
-        <div className="md:px-10" onClick={() => Router.push("/")}>
+        <div className="cursor-pointer" onClick={() => Router.push("/")}>
           <svg
-            width="207"
+            width="150"
             height="32"
             viewBox="0 0 207 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="w-[160px] lg:[320px] xlg:w-[400px]"
+            className="w-[160px] lg:[320px] xlg:w-[320px]"
           >
             <g clip-path="url(#clip0_327_2)">
               <path
@@ -114,7 +113,7 @@ export default function Nav() {
         </div>
       )}
 
-      <div className="hidden w-full lg:flex justify-between text-[18px] xlg:text-[20px] pl-12 pr-8 xlg:pl-32 xlg:pr-24">
+      <div className="hidden w-full lg:flex justify-between text-[12px] xlg:text-[16px] pl-12 pr-8 xlg:pl-32 xlg:pr-24">
         {NAV_LINKS.map((item) => (
           <Link
             href={item.href}

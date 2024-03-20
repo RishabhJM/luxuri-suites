@@ -18,7 +18,7 @@ export default function Hero() {
             viewBox="0 0 207 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
-            className="px-4 w-[300px] xse:w-[400px] sm:w-[500px] md:w-[700px] pb-4"
+            className="px-4 w-[300px] xse:w-[400px] sm:w-[500px] md:w-[400px] pb-4"
           >
             <g clip-path="url(#clip0_327_2)">
               <path
@@ -53,10 +53,10 @@ export default function Hero() {
             </defs>
           </svg>
 
-          <p className="text-5xl md:text-7xl font-light tracking-wider">SUITES</p>
+          <p className="text-5xl md:text-5xl font-light tracking-wider">SUITES</p>
         </div>
         <button
-          className="text-lg se:text-xl rounded-full py-[4px] px-6 bg-white opacity-75 text-black font-semibold"
+          className="text-lg rounded-full py-[4px] px-6 bg-white opacity-75 text-black font-semibold"
           type="button"
           onClick={() => Router.push("/suites")}
         >

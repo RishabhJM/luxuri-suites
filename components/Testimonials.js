@@ -15,7 +15,7 @@ export default function Testimonials() {
     }
   }
   return (
-    <div className="py-10 md:pt-12">
+    <div className="py-10 md:pt-12" id="testimonials">
       <div className="flex">
         <div className="border-b-[3px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
         <h2 className="strike-text">
@@ -32,7 +32,7 @@ export default function Testimonials() {
           ></Image>
         </div>
         <div className="pt-10 px-10 md:px-12 lg:w-1/2 flex flex-col justify-between text-[#454545]">
-          <p className="text-xl md:text-2xl lg:text-4xl tracking-wide mb-4">
+          <p className="text-xl md:text-2xl lg:text-3xl tracking-wide mb-4">
             {TESTIMONIALS_DATA[testimonial].testimonial}
           </p>
           <div>
@@ -46,7 +46,7 @@ export default function Testimonials() {
               </p>
             </div>
 
-            <div className="flex gap-2">
+            <div className="flex gap-4 md:gap-6">
               <div
                 className={
                   "p-2 font-bold border-2 md:border-4 border-[#1E1E1E] cursor-pointer " +
@@ -62,7 +62,7 @@ export default function Testimonials() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[48px] h-auto"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
                 >
                   <path
                     stroke-linecap="round"
@@ -86,7 +86,7 @@ export default function Testimonials() {
                   viewBox="0 0 24 24"
                   stroke-width="1.5"
                   stroke="currentColor"
-                  className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[48px] h-auto"
+                  className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
                 >
                   <path
                     stroke-linecap="round"

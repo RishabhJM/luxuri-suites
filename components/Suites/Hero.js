@@ -169,7 +169,7 @@ export default function Hero({ suite }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-start gap-4 px-8 md:px-0 py-8">
+      <div className="flex justify-start gap-4 md:gap-6 px-8 md:px-0 py-8">
         <div
           className={
             "p-2 font-bold border-2 border-white cursor-pointer  " +
@@ -183,7 +183,7 @@ export default function Hero({ suite }) {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
+            className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
           >
             <path
               stroke-linecap="round"
@@ -207,7 +207,7 @@ export default function Hero({ suite }) {
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            className="w-[16px] sm:w-[28px] lg:w-[36px] xlg:w-[60px] h-auto"
+            className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
           >
             <path
               stroke-linecap="round"

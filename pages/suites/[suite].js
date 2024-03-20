@@ -11,7 +11,7 @@ import React from 'react'
 export default function Suite() {
     const router = useRouter();
     const { suite } = router.query;
-    const suiteIndex = Number(suite);
+    const suiteIndex = Number(suite) || 0;
     return (
         <Layout>
           {/* <Hero></Hero> */}

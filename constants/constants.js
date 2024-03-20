@@ -2,7 +2,7 @@ export const NAV_LINKS = [
   { href: "/about", key: "about", label: "ABOUT US" },
   { href: "/suites", key: "suites", label: "SUITES" },
   { href: "/blog", key: "blog", label: "BLOG" },
-  { href: "/testimonial", key: "testimonial", label: "TESTIMONIALS" },
+  { href: "#testimonials", key: "testimonial", label: "TESTIMONIALS" },
   { href: "/concierge", key: "concierge", label: "CONCIERGE" },
 ];
 
