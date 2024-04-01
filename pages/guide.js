@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout/Layout";
 import SimpleSlider from "@/components/Misc/SimpleSlider";
-import { AREA_ATTRACTIONS, BEACHES, DINNING } from "@/constants/constants";
+import { AREA_ATTRACTIONS, BEACHES, DINNING, MUSEUMS, SHOPPING } from "@/constants/constants";
 import Image from "next/image";
 import React from "react";
 
@@ -48,8 +48,8 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col">
-          <div className="relative lg:w-[55vw] h-[300px] xl:h-[500px] lg:h-auto bg-black">
-            <Image src={"/guide1.png"} fill className="p-6 md:p-16" alt=""></Image>
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
+            <Image src={"/guide1.png"} fill className="p-6 lg:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
             <h3 className="text-5xl pb-10">The Art Deco District</h3>
@@ -70,8 +70,8 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row-reverse flex-col">
-          <div className="relative lg:w-[55vw] h-[300px] lg:h-auto bg-black">
-            <Image src={"/guide2.png"} fill className="p-6 md:p-16"></Image>
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
+            <Image src={"/guide2.png"} fill className="p-6 lg:p-16"></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
             <h3 className="text-5xl pb-10">Area Attractions</h3>
@@ -96,7 +96,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col">
-          <div className="relative lg:w-[55vw] lg:h-auto h-[300px] xl:h-[500px] bg-black">
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
             <Image src={"/guide3.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
@@ -122,7 +122,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row-reverse flex-col">
-          <div className="relative lg:w-[55vw] h-[300px] xl:h-[500px] lg:h-auto bg-black">
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
             <Image src={"/guide4.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
@@ -135,6 +135,58 @@ export default function guide() {
               arrows={true}
             >
               {BEACHES.map((t) => (
+                <div key={t.title}>
+                  <div className="pb-6 flex flex-col items-center">
+                    <h4 className="text-lg font-semibold">{t.title}</h4>
+                    <p className="w-2/3 text-[#757575]">{t.address}</p>
+                  </div>
+
+                  <p>{t.data}</p>
+                </div>
+              ))}
+            </SimpleSlider>
+          </div>
+        </div>
+        <div className="flex lg:flex-row flex-col">
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
+            <Image src={"/guide5.png"} fill className="p-6 md:p-16" alt=""></Image>
+          </div>
+          <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
+            <h3 className="text-5xl pb-10">Museums</h3>
+            <SimpleSlider
+              dots={true}
+              noOfSlides={1}
+              autoPlay={false}
+              infinite={true}
+              arrows={true}
+            >
+              {MUSEUMS.map((t) => (
+                <div key={t.title}>
+                  <div className="pb-6 flex flex-col items-center">
+                    <h4 className="text-lg font-semibold">{t.title}</h4>
+                    <p className="w-2/3 text-[#757575]">{t.address}</p>
+                  </div>
+
+                  <p>{t.data}</p>
+                </div>
+              ))}
+            </SimpleSlider>
+          </div>
+        </div>
+        <div className="flex lg:flex-row-reverse flex-col">
+          <div className="relative lg:w-[55vw] h-[300px] md:h-[500px] xl:h-[650px] lg:h-auto bg-black">
+            <Image src={"/guide6.png"} fill className="p-6 md:p-16" alt=""></Image>
+          </div>
+          <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
+            <h3 className="text-5xl pb-10">South Beach Shopping</h3>
+            <SimpleSlider
+              dots={true}
+              noOfSlides={1}
+              autoPlay={false}
+              infinite={true}
+              arrows={true}
+            >
+              {SHOPPING.map((t) => (
                 <div key={t.title}>
                   <div className="pb-6 flex flex-col items-center">
                     <h4 className="text-lg font-semibold">{t.title}</h4>

@@ -200,3 +200,22 @@ export const BEACHES = [
 
 
 
+export const MUSEUMS = [
+{title:"PEREZ ART MUSEUM MIAMI (PAMM)", data:"El Museo de Arte Moderno y Contemporáneo Perez Art de Miami (PAMM) se dedica a coleccionar y exhibir obras de arte internacionales del siglo 20th y 21st.",address:"3.9 Miles from hotel,1103 Biscayne Blvd, Miami, FL 33102 Phone: (305) 375-3000 Museum Website: http://www.pamm.org/"},
+{title:"BASS MUSEUM OF ART", data:"The art museum in Miami is known for its forward-thinking approach. It boasts an open-air sculpture terrace, a cozy cafe, a serene courtyard, and a charming museum shop. Within its permanent collection, you'll find an impressive array of European paintings spanning from the 15th to the early 20th centuries, showcasing renowned artists like Bol, Flinck, and Rubens.",address:"1.8 miles from the hotel, 2121 Park Avenue Miami, FL 33139 Phone: 305.673.7530"},
+{title:"ART DECO MUSEUM", data:"The Art Deco Museum, operated by the non-profit Miami Design Preservation League, offers informative tours of the captivating Art Deco District. Its mission is to safeguard and advance the cultural legacy of this district through guided visits.",address:"1/2 mile from the hotel 1001 Ocean Dr. Miami Beach, FL 33139 Phone: 305.672.2014"},
+{title:"WOLFSONIAN MUSEUM", data:"This museum houses mainly artefacts of North American and European origin, dating from 1885 to 1945. This colourful museum contains an extremely diverse collection.",address:"0.8 miles from the hotel 001 Washington Ave South Beach, FL 33139 Phone: 305.531.1001"},
+{title:"JEWISH MUSEUM OF FLORIDA", data:"Highlighting 230 years of Jewish legacy in Florida, this museum explores the Jewish faith through films, exhibits, and talks. A former synagogue now shelters the museum.",address:"0.2 miles from the hotel 301 Washington Ave South Beach, FL 33139 Phone: 305.672.5044"},
+{title:"MIAMI ART MUSEUM (MAM)", data:"The MAM museum presents a diverse collection of modern and contemporary artwork. Its celebrated displays attract worldwide recognition, promoting active participation within the community.",address:"5 miles from the hotel 101 West Flagler Street Miami, FL 33130 Phone: 305.375.3000"},
+{title:"LATIN AMERICAN ART MUSEUM", data:"Featuring an array of artworks from Spain and Latin America, this museum boasts a vast permanent collection, spanning 3,500 square feet. Additionally, it hosts monthly displays showcasing masterpieces hailing from Latin America and the Caribbean.",address:"8 miles from the hotel 2206 SW 8th St. Little Havana, FL 33135 Phone: 305.644.1127"},
+{title:"MUSEUM OF CONTEMPORARY ART (MOCA)", data:"This museum showcases the art of both local and internationally renowned artists, aiming to make contemporary art inclusive for diverse spectators.",address:"13 miles from the hotel 770 NE 125th Street North Miami, FL 33161 Phone: 305.893.6211"},
+];
+
+export const SHOPPING = [
+  {title:"COLLINS AVENUE SHOPS",data:"Famous stores including the GAP, Express, and Armani as well as world-class boutiques can be found up and down Collins Avenue.",address:"Outside the hotel Collins Ave"},
+  {title:"ESPANOLA WAY",data:"Espanola Way attracts tourists globally with its vibrant ambiance, bustling marketplace, and diverse range of merchandise. Delightful floral arrangements, exquisite jewelry, and various goods fill the vendor stalls. Additionally, the street boasts authentic restaurants and charming Bohemian cafes that offer al fresco dining options. With its distinctive charm and lively atmosphere, Espanola Way entices visitors to experience its captivating allure.",address:"1/2 mile from hotel North of 14th St, between Washington and Pennsylvania Avenues South Beach, FL 33139"},
+  {title:"LINCOLN ROAD MALL",data:"Known as the &quot;Fifth Avenue of the South&quot; Lincoln Road is a pedestrian shopping mall with many shops, restaurants, and bars lining both sides of the street.",address:"1 mile from the hotel Lincoln Road at 16th Street Miami, FL 33139"},
+  {title:"BAYSIDE MARKETPLACE",data:"Bayside Marketplace offers an unforgettable shopping journey with over 100 unique boutiques, eateries, and amusement venues. Moreover, embark on a captivating boat excursion circling the renowned Star Island.",address:"4.5 miles from the hotel 401 Biscayne Blvd. Miami, Fl 33132 Phone: 305.577.3344"},
+];
+
+
