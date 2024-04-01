@@ -48,7 +48,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col">
-          <div className="relative lg:w-[55vw] h-[400px] xl:h-[500px] lg:h-auto bg-black">
+          <div className="relative lg:w-[55vw] h-[300px] xl:h-[500px] lg:h-auto bg-black">
             <Image src={"/guide1.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
@@ -70,7 +70,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row-reverse flex-col">
-          <div className="relative lg:w-[55vw] h-[400px] lg:h-auto bg-black">
+          <div className="relative lg:w-[55vw] h-[300px] lg:h-auto bg-black">
             <Image src={"/guide2.png"} fill className="p-6 md:p-16"></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
@@ -83,7 +83,7 @@ export default function guide() {
               arrows={true}
             >
               {AREA_ATTRACTIONS.map((t) => (
-                <div key={t.title} className="p-16">
+                <div key={t.title} className="">
                   <div className="pb-6 flex flex-col items-center">
                     <h4 className="text-lg font-semibold">{t.title}</h4>
                     <p className="w-2/3 text-[#757575]">{t.address}</p>
@@ -96,7 +96,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row flex-col">
-          <div className="relative lg:w-[55vw] lg:h-auto h-[400px] xl:h-[500px] bg-black">
+          <div className="relative lg:w-[55vw] lg:h-auto h-[300px] xl:h-[500px] bg-black">
             <Image src={"/guide3.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
@@ -122,7 +122,7 @@ export default function guide() {
           </div>
         </div>
         <div className="flex lg:flex-row-reverse flex-col">
-          <div className="relative lg:w-[55vw]  h-[400px] xl:h-[500px] lg:h-auto bg-black">
+          <div className="relative lg:w-[55vw] h-[300px] xl:h-[500px] lg:h-auto bg-black">
             <Image src={"/guide4.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
