@@ -14,7 +14,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ['var(--font-raleway)'],
-        mont: ['var(--font-montserrat)']
+        mont: ['var(--font-montserrat)'],
+        italiana:['var(--font-italiana)']
         
       },
       colors:{

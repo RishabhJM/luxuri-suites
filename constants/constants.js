@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
-  { href: "/merch", key: "merch", label: "MERCH" },
-  { href: "/suites", key: "suites", label: "SUITES" },
+  { href: "https://shop.luxuri.com", key: "merch", label: "MERCH" },
+  { href: "/guide", key: "guide", label: "GUIDE" },
   { href: "/blog", key: "blog", label: "BLOG" },
   { href: "#testimonials", key: "testimonial", label: "TESTIMONIALS" },
   { href: "/concierge", key: "concierge", label: "CONCIERGE" },
@@ -73,13 +73,10 @@ export const ROOMS_DATA = [
       "Free cancellation 48 hours prior",
       "Sea view",
     ],
-    amenities:"Sleeps 1 people | Private bathroom | Air conditioning | Flat-screen TV | Minibar | Free toiletries",
-    images:[
-      "/bedroom1.jpg",
-      "/hero.png",
-      "/bedroom1.jpg",
-    ],
-    rate:116
+    amenities:
+      "Sleeps 1 people | Private bathroom | Air conditioning | Flat-screen TV | Minibar | Free toiletries",
+    images: ["/bedroom1.jpg", "/hero.png", "/bedroom1.jpg"],
+    rate: 116,
   },
   {
     title: "Queen bedroom",
@@ -90,13 +87,88 @@ export const ROOMS_DATA = [
       "Free cancellation 48 hours prior",
       "Sea view",
     ],
-    amenities:"Sleeps 1 people | Private bathroom | Air conditioning | Flat-screen TV | Minibar | Free toiletries",
-    images:[
-      "/bedroom1.jpg",
-      "/hero.png",
-      "/bedroom1.jpg",
-    ],
-    rate:116
+    amenities:
+      "Sleeps 1 people | Private bathroom | Air conditioning | Flat-screen TV | Minibar | Free toiletries",
+    images: ["/bedroom1.jpg", "/hero.png", "/bedroom1.jpg"],
+    rate: 116,
   },
-  
+];
+
+export const CONCIERGE = [
+  {
+    title: "IN-HOUSE GOURMET CHEF",
+    src: "/slider/image1.jpg",
+  },
+  {
+    title: "YATCH CHARTER",
+    src: "/slider/image3.jpg",
+  },
+  {
+    title: "PRIVATE JET",
+    src: "/slider/image2.jpg",
+  },
+  {
+    title: "PRIVATE DRIVER",
+    src: "/slider/image4.jpg",
+  },
+  {
+    title: "IN-HOUSE MASSAGE",
+    src: "/slider/image5.jpg",
+  },
+  {
+    title: "RESTAURANT ACCESS",
+    src: "/slider/image6.jpg",
+  },
+  {
+    title: "EXCLUSIVE EVENT ACCESS",
+    src: "/slider/image7.jpg",
+  },
+  {
+    title: "IN-HOUSE FACIALS",
+    src: "/slider/image8.jpg",
+  },
+  {
+    title: "EVENT PLANNER",
+    src: "/slider/image9.jpg",
+  },
+  {
+    title: "DAILY CLEANING",
+    src: "/slider/image10.jpg",
+  },
+  {
+    title: "HELI SKIING",
+    src: "/slider/image11.jpg",
+  },
+  {
+    title: "AIRPORT TRANSFER",
+    src: "/slider/image12.jpg",
+  },
+  {
+    title: "PHOTOGRAPHER",
+    src: "/slider/image13.jpg",
+  },
+  {
+    title: "NIGHTCLUB/LOUNGE ACCESS",
+    src: "/slider/image14.jpg",
+  },
+  {
+    title: "PERSONAL SHOPPER",
+    src: "/slider/image15.jpg",
+  },
+  {
+    title: "SPRINTER SERVICES",
+    src: "/slider/image16.jpg",
+  },
+  {
+    title: "PRIVATE SECURITY",
+    src: "/slider/image17.jpg",
+  },
+  {
+    title: "BABY SITTER / NANNY",
+    src: "/slider/image18.jpg",
+  },
+  {
+    title: "JET SKI RENTALS",
+    src: "/slider/image19.jpg",
+  },
 ];
