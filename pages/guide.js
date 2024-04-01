@@ -14,6 +14,7 @@ export default function guide() {
               src={"/hero.png"}
               fill
               className="object-cover opacity-25"
+              alt=""
             ></Image>
             <h1 className="text-3xl md:text-5xl lg:text-7xl text-center text-white top-1/2 relative">
               MIAMI BEACH GUIDE
@@ -48,7 +49,7 @@ export default function guide() {
         </div>
         <div className="flex lg:flex-row flex-col">
           <div className="relative lg:w-[55vw] h-[500px] bg-black">
-            <Image src={"/guide1.png"} fill className="p-6 md:p-16"></Image>
+            <Image src={"/guide1.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
             <h3 className="text-5xl pb-10">The Art Deco District</h3>
@@ -82,7 +83,7 @@ export default function guide() {
               arrows={true}
             >
               {AREA_ATTRACTIONS.map((t) => (
-                <div>
+                <div key={t.title}>
                   <div className="pb-6 flex flex-col items-center">
                     <h4 className="text-lg font-semibold">{t.title}</h4>
                     <p className="w-2/3 text-[#757575]">{t.address}</p>
@@ -96,7 +97,7 @@ export default function guide() {
         </div>
         <div className="flex lg:flex-row flex-col">
           <div className="relative lg:w-[55vw] h-[500px] bg-black">
-            <Image src={"/guide3.png"} fill className="p-6 md:p-16"></Image>
+            <Image src={"/guide3.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
             <h3 className="text-5xl pb-10">Dinning</h3>
@@ -108,7 +109,7 @@ export default function guide() {
               arrows={true}
             >
               {DINNING.map((t) => (
-                <div>
+                <div key={t.title}>
                   <div className="pb-6 flex flex-col items-center">
                     <h4 className="text-lg font-semibold">{t.title}</h4>
                     <p className="w-2/3 text-[#757575]">{t.address}</p>
@@ -122,7 +123,7 @@ export default function guide() {
         </div>
         <div className="flex lg:flex-row-reverse flex-col">
           <div className="relative lg:w-[55vw] h-[500px] bg-black">
-            <Image src={"/guide4.png"} fill className="p-6 md:p-16"></Image>
+            <Image src={"/guide4.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
             <h3 className="text-5xl pb-10">Beaches</h3>
@@ -134,7 +135,7 @@ export default function guide() {
               arrows={true}
             >
               {BEACHES.map((t) => (
-                <div>
+                <div key={t.title}>
                   <div className="pb-6 flex flex-col items-center">
                     <h4 className="text-lg font-semibold">{t.title}</h4>
                     <p className="w-2/3 text-[#757575]">{t.address}</p>
