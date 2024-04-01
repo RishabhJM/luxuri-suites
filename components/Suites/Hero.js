@@ -5,6 +5,7 @@ import React, { useState } from "react";
 export default function Hero({ suite }) {
   const featureClass = " group flex items-center";
   const [hotel, setHotel] = useState(0);
+  const [heroImg,setHeroImg] = useState(PROPERTIES_DATA[suite].images[hotel]);
 
   function nextPage() {
     if (hotel !== PROPERTIES_DATA[suite].images[hotel] - 1) {
@@ -17,12 +18,12 @@ export default function Hero({ suite }) {
     }
   }
   return (
-    <div className="md:px-10 bg-black">
+    <div className="pt-20 md:pt-24 md:px-10 bg-black">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-3/5 h-[80vh] relative">
           <Image
             className="object-cover"
-            src={PROPERTIES_DATA[0].images[hotel]}
+            src={heroImg}
             fill
             alt=""
           ></Image>
@@ -32,7 +33,8 @@ export default function Hero({ suite }) {
             <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
-                src={PROPERTIES_DATA[0].images[1]}
+                src={PROPERTIES_DATA[suite].images[1]}
+                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[1])}}
                 fill
                 alt=""
               ></Image>
@@ -40,7 +42,8 @@ export default function Hero({ suite }) {
             <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
-                src={PROPERTIES_DATA[0].images[2]}
+                src={PROPERTIES_DATA[suite].images[2]}
+                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[2])}}
                 fill
                 alt=""
               ></Image>
@@ -50,7 +53,8 @@ export default function Hero({ suite }) {
             <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
-                src={PROPERTIES_DATA[0].images[3]}
+                src={PROPERTIES_DATA[suite].images[3]}
+                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[3])}}
                 fill
                 alt=""
               ></Image>
@@ -58,7 +62,8 @@ export default function Hero({ suite }) {
             <div className="w-[500px] h-[20vh] relative">
               <Image
                 className="object-cover"
-                src={PROPERTIES_DATA[0].images[4]}
+                src={PROPERTIES_DATA[suite].images[4]}
+                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[4])}}
                 fill
                 alt=""
               ></Image>
@@ -169,10 +174,10 @@ export default function Hero({ suite }) {
           </div>
         </div>
       </div>
-      <div className="flex justify-start gap-4 md:gap-6 px-8 md:px-0 py-8">
+      <div className="md:flex justify-start gap-4 md:gap-6 px-8 md:px-0 py-8 hidden">
         <div
           className={
-            "p-2 font-bold border-2 border-white cursor-pointer  " +
+            "p-2 font-bold border-2 border-white cursor-pointer" +
             (hotel === 0 ? "bg-black text-white" : "bg-white text-black")
           }
           onClick={() => PrevPage()}

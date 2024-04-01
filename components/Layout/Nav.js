@@ -105,6 +105,7 @@ export default function Nav() {
                 className={
                   isActive(item.href) ? "p-4 text-[#FD9E0F]" : "p-4 text-white"
                 }
+                onClick={() => Router.push(item.href)}
               >
                 {item.label}
               </Link>

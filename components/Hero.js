@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { Router } from "next/router";
 
 export default function Hero() {
@@ -53,15 +54,18 @@ export default function Hero() {
             </defs>
           </svg>
 
-          <p className="text-5xl md:text-5xl font-light tracking-wider">SUITES</p>
+          <p className="text-5xl md:text-5xl font-light tracking-wider">
+            SUITES
+          </p>
         </div>
-        <button
-          className="text-lg rounded-full py-[4px] px-6 bg-white opacity-75 text-black font-semibold"
-          type="button"
-          onClick={() => Router.push("/suites")}
-        >
-          EXPLORE
-        </button>
+        <Link href={"#featured"}>
+          <button
+            className="text-lg rounded-full py-[4px] px-6 bg-white opacity-75 text-black font-semibold"
+            type="button"
+          >
+            EXPLORE
+          </button>
+        </Link>
       </div>
     </div>
   );

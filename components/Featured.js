@@ -19,7 +19,7 @@ export default function Featured() {
     }
   }
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white" id="featured">
       <div className="text-4xl md:text-6xl lg:text-6xl px-4 sm:p-4 border-b-[1px] border-[#555555]">
         <h1 className="py-4">
           Featured <span className="font-semibold">SUITES</span>

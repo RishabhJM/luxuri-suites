@@ -3,7 +3,7 @@ export const NAV_LINKS = [
   { href: "/guide", key: "guide", label: "GUIDE" },
   { href: "/blog", key: "blog", label: "BLOG" },
   { href: "#testimonials", key: "testimonial", label: "TESTIMONIALS" },
-  { href: "/concierge", key: "concierge", label: "CONCIERGE" },
+  { href: "#concierge", key: "concierge", label: "CONCIERGE" },
 ];
 
 export const FOOTER_LINKS = [

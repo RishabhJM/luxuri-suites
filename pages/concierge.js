@@ -20,7 +20,7 @@ export default function Concierge() {
           backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0) 80%, rgba(0,0,0,1)),linear-gradient(to top, rgba(0,0,0,0) 80%, rgba(0,0,0,1)),url(/slider/${bgImage})`,
         }}
       >
-        <div className="text-center text-white">
+        <div className="text-center text-white flex flex-col relative top-1/2 md:top-20">
           <h3 className="text-3xl se:text-5xl md:text-8xl font-italiana mb-4">
             {CONCIERGE[services].title}
           </h3>
