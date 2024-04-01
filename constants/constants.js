@@ -172,3 +172,31 @@ export const CONCIERGE = [
     src: "/slider/image19.jpg",
   },
 ];
+
+
+export const AREA_ATTRACTIONS = [
+  {title:"ESPANOLA WAY",data:"Espanola Way, a bustling street, is home to various vendors offering flowers, jewelry, and assorted goods. In addition, this vibrant locale hosts charming eateries and cafes that provide alfresco dining. With its lively ambiance and distinctive character, Espanola Way captivates tourists worldwide.",address:"½ mile from hotel North of 14th St, between Washington and Pensnsylvania Avenues South Beach, FL 33139"},
+  {title:"MIAMI BEACH GOLF COURSE",data:"In close proximity to South Beach, a renowned golf course of historical significance underwent restoration in 2002. Crafted by the esteemed architect Arthur Hills, the Miami Beach Golf Course resides harmoniously amidst the vast expanse of the Atlantic Ocean and Biscayne Bay, boasting adjacency to exceptional dining establishments and captivating points of interest.",address:""},
+  {title:"ADRIENNE ARSHT CENTER FOR THE PERFORMING ARTS",data:"The Adrienne Arsht Center for the Performing Arts of Miami-Dade County, as the epicenter of artistic expression in South Florida, presents a diverse range of cultural initiatives, both established and emerging, thereby serving as a prominent platform for the performing arts.",address:""},
+  {title:"JUNGLE ISLAND",data:"Discover a sprawling park spanning 19 acres, showcasing the wonders of the Everglades through an informative exhibit. Engage with adorable animals at the petting zoo, immerse yourself in captivating performances at the theaters, and explore enchanting jungle trails. Don't miss the chance to encounter Crocosaurus, a colossal 20-foot saltwater crocodile, proudly calling the park's Serpentarium its home.",address:""},
+  {title:"VILLA VIZCAYA",data:"This National Landmark, an exquisite Italian Renaissance-style villa constructed during the 1900s, showcases its vast gardens. The museum offers guided tours where visitors can admire European artworks, tapestries, and furnishings from the 16th to 19th centuries. Elaborate fountains, pools, and cascades grace the formal gardens spanning over 10 acres that encircle the villa.",address:""},
+  {title:"MIAMI SEAQUARIUM",data:"Experience 38 acres of exhilarating fun, astounding spectacles, and beyond. The ocean park shelters Lolita, the magnificent Killer Whale, and renowned TV sensation, Flipper. Embark on a captivating two-hour adventure, donning a wetsuit, and immersing yourself in the legendary Flipper Lagoon, indulging in an intimate rendezvous with playful dolphins.",address:""},
+  {title:"ZOO GARDEN",data:"This zoo covers 290 acres, no cages, just moats keeping animals away. A petting zoo, play area, and daily programs enlighten and amuse visitors.",address:""},
+  {title:"EVERGLADES NATIONAL PARK",data:"This preserve is America's sole subtropical park, famous for its abundant bird species and unique coexistence of alligators and crocodiles worldwide.",address:""},
+];
+
+export const DINNING = [
+  {title:"SMITH & WOLLENSKY",data:"For 94 years, Joe's Stone Crab Restaurant has remained an iconic spot in South Beach. Its doors swing open exclusively during the crab season from October to May, offering the most pristine and substantial stone crabs. However, if you're not in the mood for crab, fear not, as the menu presents an array of equally delectable options."},
+  {title:"JOE'S STONE CRAB RESTAURANT",data:"Italian fare & pizzas with wines in a cozy interior or lush garden setting decorated with pillows.22 Washington Ave, Miami Beach, FL 33139 - Tel (305) 531-4800"},
+  {title:"CALL ME GABY",data:"The steakhouse by the waterfront offers a bustling bar during happy hour and al fresco dining. While the main focus is on steak, the menu also boasts mouthwatering options like seafood, chicken, and pork loin. Additionally, patrons fortunate enough to secure a spot near the restaurant's expansive windows can relish the breathtaking sights of Miami's skyline and passing cruise ships."},
+];
+
+export const BEACHES = [
+  {title:"SOUTH BEACH",data:"South Beach is renowned for its bustling sidewalk cafes, abundant shopping options, and vibrant nightlife, making it a hub for people-watching. However, it's important to note that this particular beach lacks suitable waves for surfing enthusiasts.",address:"5th Street through 21st Street"},
+  {title:"NORTH MIAMI BEACH",data:"The sandy beach is spacious and bustling, boasting shallow waves, abundant eateries, and lively palm-shaded lawns. Adjacent to it are fast-food joints and charming sidewalk cafes. You'll find lifeguard stations, food stands, as well as rentals for beach chairs and umbrellas. Additionally, there are picnic tables, chairs, and convenient shower facilities. This bustling beach offers a wide expanse of fine sand, catering to visitors seeking both relaxation and excitement.",address:"Collins Avenue from 46th Street to 78th Street"},
+  {title:"CENTRAL MIAMI BEACH",data:"This beach, favored by runners, features an elevated pathway spanning the sand hills. Lifeguard stations, refreshment stands, and chair and umbrella rentals are available.",address:"Collins Avenue from 21st Street to 46th Street"},
+  {title:"SOUTH POINTE PARK",data:"At the southernmost point of South Beach lies this sandy shore. It boasts a playground, a fishing pier, a boardwalk, an observation tower, and various dining options in close proximity.",address:"Ocean Drive at 5th Street, 1 Washington Ave entrance"},
+];
+
+
+
