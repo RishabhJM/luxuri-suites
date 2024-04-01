@@ -2,8 +2,8 @@ export const NAV_LINKS = [
   { href: "https://shop.luxuri.com", key: "merch", label: "MERCH" },
   { href: "/guide", key: "guide", label: "GUIDE" },
   { href: "/blog", key: "blog", label: "BLOG" },
-  { href: "#testimonials", key: "testimonial", label: "TESTIMONIALS" },
-  { href: "#concierge", key: "concierge", label: "CONCIERGE" },
+  { href: "/#testimonials", key: "testimonial", label: "TESTIMONIALS" },
+  { href: "/concierge", key: "concierge", label: "CONCIERGE" },
 ];
 
 export const FOOTER_LINKS = [
@@ -30,7 +30,7 @@ export const PROPERTIES_DATA = [
     title: "853 Collins Ave",
     description:
       "Hotel 853 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
-    images: ["/carousel.png", "/carousel.png", "/carousel.png"],
+    images: ["/carousel.png", "/carousel.png", "/carousel.png","/carousel.png", "/carousel.png"],
   },
   {
     title: "854 Collins Ave",

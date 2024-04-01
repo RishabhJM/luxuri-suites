@@ -5,10 +5,9 @@ import React, { useState } from "react";
 export default function Hero({ suite }) {
   const featureClass = " group flex items-center";
   const [hotel, setHotel] = useState(0);
-  const [heroImg,setHeroImg] = useState(PROPERTIES_DATA[suite].images[hotel]);
 
   function nextPage() {
-    if (hotel !== PROPERTIES_DATA[suite].images[hotel] - 1) {
+    if (hotel !== PROPERTIES_DATA[suite].images.length - 1) {
       setHotel(hotel + 1);
     }
   }
@@ -16,17 +15,13 @@ export default function Hero({ suite }) {
     if (hotel !== 0) {
       setHotel(hotel - 1);
     }
+
   }
   return (
     <div className="pt-20 md:pt-24 md:px-10 bg-black">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-3/5 h-[80vh] relative">
-          <Image
-            className="object-cover"
-            src={heroImg}
-            fill
-            alt=""
-          ></Image>
+          <Image className="object-cover" src={PROPERTIES_DATA[suite].images[hotel]} fill alt=""></Image>
         </div>
         <div className="md:w-2/5 h-[80vh] flex flex-col">
           <div className="flex">
@@ -34,7 +29,9 @@ export default function Hero({ suite }) {
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[suite].images[1]}
-                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[1])}}
+                onClick={() => {
+                  setHotel(1);
+                }}
                 fill
                 alt=""
               ></Image>
@@ -43,7 +40,9 @@ export default function Hero({ suite }) {
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[suite].images[2]}
-                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[2])}}
+                onClick={() => {
+                  setHotel(2);
+                }}
                 fill
                 alt=""
               ></Image>
@@ -54,7 +53,9 @@ export default function Hero({ suite }) {
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[suite].images[3]}
-                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[3])}}
+                onClick={() => {
+                  setHotel(3);
+                }}
                 fill
                 alt=""
               ></Image>
@@ -63,7 +64,9 @@ export default function Hero({ suite }) {
               <Image
                 className="object-cover"
                 src={PROPERTIES_DATA[suite].images[4]}
-                onClick={() => {setHeroImg(PROPERTIES_DATA[suite].images[4])}}
+                onClick={() => {
+                  setHotel(4);
+                }}
                 fill
                 alt=""
               ></Image>
@@ -72,7 +75,9 @@ export default function Hero({ suite }) {
           <div className="flex flex-col justify-between py-16 md:py-16 lg:py-20 h-[40vh]">
             <div className="flex px-16 lg:px-24 justify-between">
               <div className={featureClass}>
-                <h1 className="text-white hidden group-hover:block text-center">WIFI</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  WIFI
+                </h1>
 
                 <svg
                   width="39"
@@ -89,7 +94,9 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
               <div className={featureClass}>
-              <h1 className="text-white hidden group-hover:block text-center">AC</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  AC
+                </h1>
                 <svg
                   width="39"
                   height="39"
@@ -105,7 +112,9 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
               <div className={featureClass}>
-              <h1 className="text-white hidden group-hover:block text-center">CAFE</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  CAFE
+                </h1>
                 <svg
                   width="39"
                   height="39"
@@ -123,7 +132,9 @@ export default function Hero({ suite }) {
             </div>
             <div className="flex px-16 lg:px-24 justify-between">
               <div className={featureClass}>
-              <h1 className="text-white hidden group-hover:block text-center">GYM</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  GYM
+                </h1>
                 <svg
                   width="39"
                   height="39"
@@ -139,7 +150,9 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
               <div className={featureClass}>
-              <h1 className="text-white hidden group-hover:block text-center">BAR</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  BAR
+                </h1>
                 <svg
                   width="39"
                   height="39"
@@ -155,7 +168,9 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
               <div className={featureClass}>
-              <h1 className="text-white hidden group-hover:block text-center">ROOM SERVICE</h1>
+                <h1 className="text-white hidden group-hover:block text-center">
+                  ROOM SERVICE
+                </h1>
                 <svg
                   width="39"
                   height="39"
@@ -177,7 +192,7 @@ export default function Hero({ suite }) {
       <div className="md:flex justify-start gap-4 md:gap-6 px-8 md:px-0 py-8 hidden">
         <div
           className={
-            "p-2 font-bold border-2 border-white cursor-pointer" +
+            "p-2 font-bold border-2 md:border-4 border-white cursor-pointer " +
             (hotel === 0 ? "bg-black text-white" : "bg-white text-black")
           }
           onClick={() => PrevPage()}
@@ -199,8 +214,8 @@ export default function Hero({ suite }) {
         </div>
         <div
           className={
-            "p-2 font-bold border-2 border-white cursor-pointer   " +
-            (hotel === PROPERTIES_DATA.length - 1
+            "p-2 font-bold border-2 md:border-4 border-white cursor-pointer " +
+            (hotel === PROPERTIES_DATA.length
               ? "bg-black text-white"
               : "bg-white text-black")
           }
