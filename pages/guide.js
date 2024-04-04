@@ -100,7 +100,7 @@ export default function guide() {
             <Image src={"/guide3.png"} fill className="p-6 md:p-16" alt=""></Image>
           </div>
           <div className="lg:w-[45vw] bg-[#D9D9D9] text-center p-4 md:p-10 flex flex-col justify-center">
-            <h3 className="text-5xl pb-10">Dinning</h3>
+            <h3 className="text-5xl pb-10">Dining</h3>
             <SimpleSlider
               dots={true}
               noOfSlides={1}
