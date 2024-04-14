@@ -1,6 +1,11 @@
-import { TESTIMONIALS_DATA } from "@/constants/constants";
+import {
+  SHOPPING,
+  TESTIMONIALS,
+  TESTIMONIALS_DATA,
+} from "@/constants/constants";
 import Image from "next/image";
 import React, { useState } from "react";
+import SimpleSlider from "./Misc/SimpleSlider";
 
 export default function Testimonials() {
   const [testimonial, setTestimonial] = useState(0);
@@ -16,7 +21,7 @@ export default function Testimonials() {
   }
   return (
     <div className="py-10 md:pt-12" id="testimonials">
-      <div className="flex">
+      {/* <div className="flex">
         <div className="border-b-[3px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
         <h2 className="strike-text">
           <span className="font-bold">TESTIMONIALS</span>
@@ -98,6 +103,51 @@ export default function Testimonials() {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className="flex">
+        <div className="border-b-[3px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
+        <h2 className="strike-text">
+          <span className="font-bold">TESTIMONIALS</span>
+        </h2>
+      </div>
+      <div className="px-10 testimonials-slider">
+        <SimpleSlider
+          dots={false}
+          noOfSlides={3}
+          infinite={true}
+          arrows={false}
+          autoPlaySpeed={3000}
+          speed={1000}
+          mdSlides={2}
+        >
+          {TESTIMONIALS.map((t) => (
+            <div
+              className="rounded-3xl p-4 border-2 border-[#DDDDDD] xsm:h-[360px] sm:h-[300px]"
+              key={t.key}
+            >
+              <div className="p-2 flex flex-col justify-between">
+                <div className="flex">
+                  <Image
+                    src={t.src}
+                    width={50}
+                    height={50}
+                    className="rounded-full mr-4 w-[50px] h-[50px]"
+                  ></Image>
+                  <div className="lg:text-lg text-sm">
+                    <h3 className="font-semibold">{t.name}</h3>
+                    <p className="text-[#656565]">{t.date}</p>
+                  </div>
+                </div>
+                <div className="mb-2 lg:text-md text-sm pb-4">
+                  <q>{t.description}</q>
+                </div>
+              </div>
+              <div className="text-yellow-400 text-xl xsm:text-4xl absolute bottom-2">
+                ★★★★★
+              </div>
+            </div>
+          ))}
+        </SimpleSlider>
       </div>
     </div>
   );

@@ -34,7 +34,8 @@ export default function SimpleSlider({
   speed,
   autoPlaySpeed,
   infinite,
-  arrows
+  arrows,
+  mdSlides
 }) {
   var settings = {
     dots: dots,
@@ -50,20 +51,22 @@ export default function SimpleSlider({
     speed: speed,
     autoplaySpeed: autoPlaySpeed,
     draggable: true,
-    swipe: true,
+    swipe:true,
+    swipeToSlide:true,
+    easing:"linear",
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: mdSlides || 1,
           slidesToScroll: 1,
           initialSlide: 1,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 660,
         settings: {
-          slidesToShow: 1,
+          slidesToShow:  1,
           slidesToScroll: 1,
           initialSlide: 1,
         },

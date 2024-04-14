@@ -38,7 +38,7 @@ export default function Concierge() {
           ))}
         </select>
       </div> */}
-        <div className="flex justify-between sm:flex-wrap overflow-x-scroll px-2 no-scrollbar">
+        <div className="flex justify-between overflow-x-scroll px-2 no-scrollbar">
           <button
             className={buttonStyle}
             onClick={() => {

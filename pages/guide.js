@@ -199,7 +199,7 @@ export default function guide() {
             </SimpleSlider>
           </div>
         </div>
-        <div className="bg-[#F0F0F0] py-32"></div>
+        {/* <div className="bg-[#F0F0F0] py-32"></div> */}
       </div>
     </Layout>
   );
