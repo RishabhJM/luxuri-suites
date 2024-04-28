@@ -7,7 +7,7 @@ import Router, { useRouter } from "next/router";
 
 
 
-export default function guide() {
+export default function Guide() {
     const router = useRouter();
   return (
     <Layout>
