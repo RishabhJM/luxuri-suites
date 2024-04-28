@@ -25,9 +25,11 @@ export default function Suite() {
           </h1>
         </div>
         <div className="px-10 sm:px-20 md:px-40 lg:px-60 py-10">
-          <div className="flex w-[200px]">
-            <span className="font-bold">{BLOGS[blog].date}</span>
-            <div className="border-b-[5px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
+          <div className="flex">
+            <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
+            <h2 className="strike-text">
+              <span className="font-bold">{BLOGS[blog].date}</span>
+            </h2>
           </div>
 
           <div>
@@ -36,7 +38,7 @@ export default function Suite() {
             sunshine, it&apos;s no wonder why millions of visitors flock to this
             tropical paradise each year. Here&apos;s your ultimate guide to Miami
             Beach&apos;s most breathtaking beaches:
-            <ol className="py-6">
+            <ol className="py-6 list-decimal ml-8">
               <li classname="py-2">
                 South Beach: Arguably the most famous beach in Miami Beach,
                 South Beach stretches for miles along the Atlantic Ocean and is

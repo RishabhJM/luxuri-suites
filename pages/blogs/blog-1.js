@@ -24,7 +24,7 @@ export default function Suite() {
             {BLOGS[blog].title}
           </h1>
         </div>
-        <div className="px-40 py-10 flex">
+        <div className="px-10 sm:px-20 md:px-40 lg:px-60 py-10">
           <div className="flex">
             <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
             <h2 className="strike-text">
@@ -38,7 +38,7 @@ export default function Suite() {
             hotspots. From hidden gems tucked away in historic neighborhoods to
             local hangouts beloved by residents, here are some
             off-the-beaten-path attractions to explore in Miami Beach:
-            <ol className="py-6">
+            <ol className="py-6 list-decimal ml-8">
               <li>
                 Flamingo Park: Escape the crowds and enjoy a peaceful retreat at
                 Flamingo Park, a sprawling green space located in the heart of

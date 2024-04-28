@@ -24,7 +24,7 @@ export default function Suite() {
             {BLOGS[blog].title}
           </h1>
         </div>
-        <div className="px-40 py-10 flex">
+        <div className="px-10 sm:px-20 md:px-40 lg:px-60 py-10">
           <div className="flex">
             <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
             <h2 className="strike-text">
@@ -39,7 +39,7 @@ export default function Suite() {
             offers a nightlife scene that&apos;s as diverse as it is exhilarating.
             Here are some of the hottest clubs and bars to check out on your
             next night out:
-            <ol className="py-10">
+            <ol className="py-6 list-decimal ml-8">
               <li>
                 LIV Nightclub: Step into the ultimate nightlife destination at
                 LIV, an iconic nightclub located inside the Fontainebleau Miami
