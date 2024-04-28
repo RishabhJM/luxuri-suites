@@ -34,9 +34,9 @@ export default function Suite() {
 
           <div>
             When the sun sets, Miami Beach comes alive with pulsating beats,
-            dazzling lights, and an electrifying atmosphere that's second to
+            dazzling lights, and an electrifying atmosphere that&apos;s second to
             none. From trendy rooftop bars to legendary nightclubs, the city
-            offers a nightlife scene that's as diverse as it is exhilarating.
+            offers a nightlife scene that&apos;s as diverse as it is exhilarating.
             Here are some of the hottest clubs and bars to check out on your
             next night out:
             <ol className="py-10">
@@ -44,7 +44,7 @@ export default function Suite() {
                 LIV Nightclub: Step into the ultimate nightlife destination at
                 LIV, an iconic nightclub located inside the Fontainebleau Miami
                 Beach. With its stunning design, state-of-the-art sound system,
-                and VIP bottle service, it's no wonder why LIV is consistently
+                and VIP bottle service, it&apos;s no wonder why LIV is consistently
                 ranked among the top clubs in the world.
               </li>
               <li>
@@ -52,11 +52,11 @@ export default function Suite() {
                 Story, a high-energy nightclub known for its immersive
                 theatrical productions and top-notch DJ lineup. Dance the night
                 away on the expansive dance floor, or retreat to one of the
-                club's exclusive VIP tables for a more intimate experience.
+                club&apos;s exclusive VIP tables for a more intimate experience.
               </li>
               <li>
-                Mango's Tropical Cafe: Experience the rhythm of the tropics at
-                Mango's Tropical Cafe, a vibrant Latin nightclub located on
+                Mango&apos;s Tropical Cafe: Experience the rhythm of the tropics at
+                Mango&apos;s Tropical Cafe, a vibrant Latin nightclub located on
                 Ocean Drive. Enjoy live music, colorful dancers, and signature
                 cocktails as you salsa the night away in this lively and festive
                 atmosphere.
@@ -66,7 +66,7 @@ export default function Suite() {
                 Miami, a 24/7 ultraclub that combines cutting-edge entertainment
                 with unparalleled luxury. From live performances and aerial
                 acrobatics to world-class DJs and exotic dancers, E11even offers
-                a one-of-a-kind nightlife experience you won't find anywhere
+                a one-of-a-kind nightlife experience you won&apos;t find anywhere
                 else.
               </li>
               <li>
@@ -80,7 +80,7 @@ export default function Suite() {
                 The Broken Shaker: Sip craft cocktails in a laid-back atmosphere
                 at The Broken Shaker, a hip cocktail bar located inside the
                 Freehand Miami hostel. With its cozy courtyard and eclectic
-                décor, it's the perfect spot to unwind with friends after a long
+                décor, it&apos;s the perfect spot to unwind with friends after a long
                 day of sunbathing and sightseeing.
               </li>
               <li>
@@ -102,21 +102,21 @@ export default function Suite() {
                 Ball & Chain: Step back in time at Ball & Chain, a historic bar
                 and live music venue located in the heart of Little Havana.
                 Dance to the rhythms of live salsa and jazz bands, sip on
-                classic cocktails, and experience the vibrant culture of Miami's
+                classic cocktails, and experience the vibrant culture of Miami&apos;s
                 Cuban community.
               </li>
               <li>
-                Wet Willie's: Cool off with a frozen daiquiri at Wet Willie's, a
+                Wet Willie&apos;s: Cool off with a frozen daiquiri at Wet Willie&apos;s, a
                 lively beachfront bar known for its colorful slushie drinks and
-                laid-back vibe. With a variety of flavors to choose from, it's
+                laid-back vibe. With a variety of flavors to choose from, it&apos;s
                 the perfect spot to kick back, relax, and enjoy the ocean
                 breeze.
               </li>
             </ol>
             From glamorous nightclubs to trendy rooftop bars, Miami Beach offers
-            a nightlife scene that's as diverse as it is electrifying. So put on
+            a nightlife scene that&apos;s as diverse as it is electrifying. So put on
             your dancing shoes, gather your friends, and get ready for a night
-            out on the town you won't soon forget!
+            out on the town you won&apos;t soon forget!
           </div>
         </div>
       </div>

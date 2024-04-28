@@ -33,15 +33,15 @@ export default function Suite() {
           <div>
             When it comes to iconic beaches, Miami Beach reigns supreme. With
             its pristine white sands, crystal-clear waters, and endless
-            sunshine, it's no wonder why millions of visitors flock to this
-            tropical paradise each year. Here's your ultimate guide to Miami
-            Beach's most breathtaking beaches:
+            sunshine, it&apos;s no wonder why millions of visitors flock to this
+            tropical paradise each year. Here&apos;s your ultimate guide to Miami
+            Beach&apos;s most breathtaking beaches:
             <ol className="py-6">
               <li classname="py-2">
                 South Beach: Arguably the most famous beach in Miami Beach,
                 South Beach stretches for miles along the Atlantic Ocean and is
                 renowned for its vibrant atmosphere and lively energy. Whether
-                you're soaking up the sun, people-watching on Ocean Drive, or
+                you&apos;re soaking up the sun, people-watching on Ocean Drive, or
                 taking a dip in the turquoise waters, South Beach offers
                 something for everyone.
               </li>
@@ -49,19 +49,19 @@ export default function Suite() {
                 Lummus Park Beach: Located in the heart of South Beach, Lummus
                 Park Beach is a popular spot for sunbathing, swimming, and beach
                 volleyball. With its palm-lined promenade, colorful lifeguard
-                stands, and iconic Art Deco buildings as a backdrop, it's the
+                stands, and iconic Art Deco buildings as a backdrop, it&apos;s the
                 perfect place to capture that quintessential Miami Beach vibe.
               </li>
               <li classname="py-2">
                 North Beach: Escape the crowds and discover the tranquility of
                 North Beach, a quieter stretch of shoreline located north of
-                63rd Street. Here, you'll find fewer tourists and more locals
+                63rd Street. Here, you&apos;ll find fewer tourists and more locals
                 enjoying the pristine beaches, scenic walking paths, and
                 waterfront parks.
               </li>
               <li classname="py-2">
                 Haulover Beach: For those who prefer a more au naturel
-                experience, Haulover Beach is Miami Beach's only legal
+                experience, Haulover Beach is Miami Beach&apos;s only legal
                 clothing-optional beach. Nestled between the Intracoastal
                 Waterway and the Atlantic Ocean, this secluded stretch of sand
                 is perfect for sunbathers looking to soak up the sun without any
@@ -85,7 +85,7 @@ export default function Suite() {
                 Sunny Isles Beach: Experience the glamour of Sunny Isles Beach,
                 a posh enclave located between Miami Beach and Fort Lauderdale.
                 With its luxurious high-rise hotels, pristine beaches, and
-                upscale shopping centers, it's a favorite destination for
+                upscale shopping centers, it&apos;s a favorite destination for
                 affluent travelers and jet-setters.
               </li>
               <li classname="py-2">
@@ -99,18 +99,18 @@ export default function Suite() {
                 Bill Baggs Cape Florida State Park: Discover the natural beauty
                 of Bill Baggs Cape Florida State Park, located at the southern
                 tip of Key Biscayne. With its scenic lighthouse, nature trails,
-                and secluded beaches, it's the perfect destination for outdoor
+                and secluded beaches, it&apos;s the perfect destination for outdoor
                 enthusiasts and nature lovers.
               </li>
               <li classname="py-2">
                 Surfside Beach: Escape the crowds and enjoy a peaceful day at
                 Surfside Beach, a hidden gem nestled between Bal Harbour and
                 Miami Beach. With its soft sands, gentle surf, and relaxed
-                atmosphere, it's the ideal spot for a quiet seaside retreat.
+                atmosphere, it&apos;s the ideal spot for a quiet seaside retreat.
               </li>
             </ol>
-            Whether you're seeking excitement and adventure or peace and
-            tranquility, Miami Beach's beaches offer something for everyone. So
+            Whether you&apos;re seeking excitement and adventure or peace and
+            tranquility, Miami Beach&apos;s beaches offer something for everyone. So
             grab your sunscreen, pack your beach towel, and get ready to soak up
             the sun in paradise.
           </div>

@@ -34,7 +34,7 @@ export default function Suite() {
 
           <div>
             While Miami Beach is best known for its stunning beaches and vibrant
-            nightlife, there's so much more to discover beyond the tourist
+            nightlife, there&apos;s so much more to discover beyond the tourist
             hotspots. From hidden gems tucked away in historic neighborhoods to
             local hangouts beloved by residents, here are some
             off-the-beaten-path attractions to explore in Miami Beach:
@@ -44,13 +44,13 @@ export default function Suite() {
                 Flamingo Park, a sprawling green space located in the heart of
                 South Beach. Take a leisurely stroll along the walking paths,
                 relax beneath the shade of a palm tree, or play a game of tennis
-                on one of the park's courts.
+                on one of the park&apos;s courts.
               </li>
               <li>
-                The Wolfsonian-FIU Museum: Dive into Miami Beach's cultural
+                The Wolfsonian-FIU Museum: Dive into Miami Beach&apos;s cultural
                 scene at The Wolfsonian-FIU Museum, a hidden gem housed in a
                 historic Art Deco building on Washington Avenue. Explore the
-                museum's extensive collection of decorative arts, propaganda
+                museum&apos;s extensive collection of decorative arts, propaganda
                 posters, and industrial design objects from the 19th and 20th
                 centuries.
               </li>
@@ -66,7 +66,7 @@ export default function Suite() {
                 Harbour, located west of South Beach along the Intracoastal
                 Waterway. Stroll along the waterfront promenade, browse the
                 boutiques and specialty shops, and dine at one of the
-                neighborhood's chic restaurants and cafés.
+                neighborhood&apos;s chic restaurants and cafés.
               </li>
               <li>
                 Normandy Isle: Step back in time and explore the charming
@@ -94,7 +94,7 @@ export default function Suite() {
                 at the Miami Beach Cinematheque, a nonprofit art house cinema
                 located in the historic City Hall building. Catch a screening of
                 independent films, documentaries, and foreign classics, or
-                attend one of the theater's special events and film festivals.
+                attend one of the theater&apos;s special events and film festivals.
               </li>
               <li>
                 Mount Sinai Park: Escape the hustle and bustle of the city and
@@ -104,7 +104,7 @@ export default function Suite() {
                 relax and enjoy the peaceful surroundings.
               </li>
               <li>
-                The Bass Museum of Art: Explore Miami Beach's vibrant arts scene
+                The Bass Museum of Art: Explore Miami Beach&apos;s vibrant arts scene
                 at The Bass Museum of Art, a contemporary art museum housed in a
                 historic Art Deco building on Collins Avenue. Discover an
                 impressive collection of modern and contemporary artworks,
