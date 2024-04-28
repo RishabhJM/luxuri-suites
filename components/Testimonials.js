@@ -105,7 +105,7 @@ export default function Testimonials() {
         </div>
       </div> */}
       <div className="flex">
-        <div className="border-b-[3px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
+        <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
         <h2 className="strike-text">
           <span className="font-bold">TESTIMONIALS</span>
         </h2>
@@ -122,10 +122,10 @@ export default function Testimonials() {
         >
           {TESTIMONIALS.map((t) => (
             <div
-              className="rounded-3xl p-4 border-2 border-[#DDDDDD] xsm:h-[360px] sm:h-[300px]"
+              className="rounded-lg p-[2px] xsm:h-[360px] sm:h-[300px] bg-gradient-to-r from-[#262626] via-[#fffff] to-[#ffffff] text-white shadow-lg"
               key={t.key}
             >
-              <div className="p-2 flex flex-col justify-between">
+              <div className="p-4 flex flex-col h-full w-full  bg-[#262626] back rounded-lg">
                 <div className="flex">
                   <Image
                     src={t.src}
@@ -135,15 +135,15 @@ export default function Testimonials() {
                   ></Image>
                   <div className="lg:text-lg text-sm">
                     <h3 className="font-semibold">{t.name}</h3>
-                    <p className="text-[#656565]">{t.date}</p>
+                    <div className="text-white text-xl xsm:text-3xl">
+                      ★★★★★
+                    </div>
                   </div>
                 </div>
                 <div className="mb-2 lg:text-md text-sm pb-4">
                   <q>{t.description}</q>
                 </div>
-              </div>
-              <div className="text-yellow-400 text-xl xsm:text-4xl absolute bottom-2">
-                ★★★★★
+                <p className="text-white absolute bottom-2">{t.date}</p>
               </div>
             </div>
           ))}

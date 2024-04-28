@@ -24,7 +24,7 @@ export default function Card({ room }) {
   }
   return (
     <div
-      className="bg-[#D9D9D9] rounded-3xl p-6 sm:p-10 flex md:flex-row flex-col justify-between my-10"
+      className="bg-[#D9D9D9] rounded-3xl p-6 sm:p-10 flex md:flex-row flex-col justify-between my-10 shadow-md"
     >
       <div className="w-full md:w-1/3">
         <SimpleSlider

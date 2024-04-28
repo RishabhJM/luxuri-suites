@@ -16,10 +16,12 @@ export default function Suite() {
   return (
     <Layout>
       {/* <Hero></Hero> */}
-      <Hero suite={suiteIndex}></Hero>
-      <Results suite={suiteIndex}></Results>
-      <Manager></Manager>
-      <Highlight></Highlight>
+      <div className="bg-[#f0f0f0]">
+        <Hero suite={suiteIndex}></Hero>
+        <Results suite={suiteIndex}></Results>
+        <Manager></Manager>
+        <Highlight></Highlight>
+      </div>
       {/* <h1>{PROPERTIES_DATA[suite].title}</h1> */}
     </Layout>
   );

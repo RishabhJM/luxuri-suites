@@ -395,4 +395,83 @@ export const TESTIMONIALS = [
     description:
       "Whether you’re around for spring break or away for a couples retreat this place will do the trick. Absolutely perfect location for the beach and restaurants.",
   },
+  {
+    src: "/testi8.png",
+    name: "Jada",
+    date: "April 2024",
+    key: "about7",
+    description:
+      "Great place to stay! Walking distance from the beach and some great places to eat. Very quiet and safe place to stay.",
+  },
+  {
+    src: "/testi9.png",
+    name: "Paula",
+    date: "April 2024",
+    key: "about8",
+    description:
+      "Great location! Beach one block away, lots of restaurants, quite nightlife, party, all very entertaining! Plus everything spotless! Totally recommended. We hope to come back soon!",
+  },
+  {
+    src: "/testi10.png",
+    name: "Whitney",
+    date: "April 2024",
+    key: "about9",
+    description:
+      "We loved our stay at Luxuri. It was a perfect location to do all the things. The beach was walkable distance. We came for Pride and it was the perfect place to stay! Thank you for your hospitality.",
+  },
+  {
+    src: "/testi11.png",
+    name: "Matthew",
+    date: "April 2024",
+    key: "about10",
+    description:
+      "Great location- perfect for walking around in South Beach. We had an amazing time!",
+  },
+  {
+    src: "/testi12.png",
+    name: "Horacio",
+    date: "April 2024",
+    key: "about11",
+    description:
+      "Had a great time! And I would come back ! Thank youHad a great time! And I would come back ! Thank you",
+  },
+  {
+    src: "/testi13.png",
+    name: "Kimmie",
+    date: "April 2024",
+    key: "about12",
+    description:
+      "It was a great location and fit 4 people just perfect! The host responded to us when ever we sent a message. I would love to stay there again next time I'm in town!!",
+  },
+  {
+    src: "/testi14.png",
+    name: "Sandrea",
+    date: "April 2024",
+    key: "about13",
+    description:
+      "Great hosts that communicated effectively and kind. Had an overall good time with the place & was definitely walking distance to everything.",
+  },
+  {
+    src: "/testi15.png",
+    name: "Matthew",
+    date: "April 2024",
+    key: "about14",
+    description:
+      "We enjoyed our stay! Everything’s was clean and comfortable. Would definitely come back.",
+  },
+  {
+    src: "/testi16.png",
+    name: "Ana Carla",
+    date: "April 2024",
+    key: "about15",
+    description:
+      "Everything is great. Would definitely come back. The location is absolutely perfect. All clear. Great shower, big bed and comfortable.",
+  },
 ];
+
+
+export const BLOGS = [
+  {src:"/blog-1.jpeg",title:"Sun, Sand, and Surf: The Ultimate Guide to Miami Beach's Beaches", date:"28.04.2024", key:"1",data:""},
+  {src:"/blog-2.jpeg",title:"Beyond the Beach: Hidden Gems and Local Hangouts in Miami Beach", date:"14.02.2024", key:"2"},
+  {src:"/blog-3.jpeg",title:"Nightlife Vibes: The Hottest Clubs and Bars in Miami Beach", date:"05.01.2024", key:"3"},
+]

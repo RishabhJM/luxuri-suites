@@ -21,7 +21,7 @@ export default function Results({ suite }) {
   return (
     <div className="bg-[#F0F0F0] px-10 py-20">
       <h2 className="text-5xl lg:text-7xl font-bold">{PROPERTIES_DATA[suite].title}</h2>
-      <div className="px-6 py-6 w-auto md:w-fit bg-white rounded-3xl flex md:flex-row my-10 justify-center items-center">
+      <div className="px-6 py-6 w-auto lg:w-2/3 bg-white rounded-3xl flex md:flex-row my-10 justify-center items-center shadow-lg">
         <div className="w-full md:w-1/3 sm:px-4 flex items-center justify-center py-2">
           <svg
             xmlns="http://www.w3.org/2000/svg"
