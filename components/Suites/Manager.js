@@ -4,11 +4,11 @@ import React from "react";
 export default function Manager() {
   return (
     <div className="flex flex-col lg:flex-row m-10 shadow-md rounded-3xl">
-      <div className="lg:w-2/5 h-[600px] relative">
-        <Image className="object-cover rounded-l-3xl" src="/paris.png" fill alt=""></Image>
+      <div className="lg:w-2/5 h-[600px] lg:h-auto relative">
+        <Image className="object-cover lg:rounded-bl-3xl rounded-tr-3xl lg:rounded-tr-none rounded-tl-3xl" src="/paris.png" fill alt=""></Image>
         {/* <img src="/paris.png" alt="" /> */}
       </div>
-      <div className="lg:w-3/5 bg-black text-white px-8 xs:px-12 sm:px-20 md:px-32 py-10 flex flex-col justify-between rounded-r-3xl">
+      <div className="lg:w-3/5 bg-black text-white px-8 xs:px-12 sm:px-20 md:px-32 py-10 flex flex-col justify-between rounded-bl-3xl lg:rounded-bl-none lg:rounded-tr-3xl rounded-br-3xl">
         <div className="pb-10">
           <h3 className="text-4xl md:text-6xl lg:text-6xl pb-8">
             Hi! I&apos;m Paris
