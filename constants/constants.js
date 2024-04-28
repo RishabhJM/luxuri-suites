@@ -19,36 +19,24 @@ export const PROPERTIES_DATA = [
     description:
       "Hotel 852 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
     images: [
-      "/suitea1.png",
-      "/suitea2.png",
-      "/suitea3.png",
-      "/suitea4.png",
-      "/suitea5.png",
+      "/suite2/s3.jpg",
+      "/suite2/s2.jpg",
+      "/suite2/s1.jpg",
+      "/suite2/s4.jpg",
+      "/suite2/s5.jpg",
     ],
   },
   {
-    title: "853 Collins Ave",
+    title: "Hotel Ocean",
     description:
-      "Hotel 853 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
+      "Hotel Ocean receives accolades for its impeccably clean rooms and facilities, thanks to its diligent housekeeping. The hotel's vibrant atmosphere is amplified by live music and stunning ocean views, making it a hit among guests.Its stellar location, a stone's throw from the beach and local attractions, coupled with thoughtful amenities like complimentary bikes and refreshments, adds to its charm. While some guests might long for hotter water for tea and plusher pillows, the overall value and attentive service ensure a memorable stay.",
     images: [
-      "/carousel.png",
-      "/carousel.png",
-      "/carousel.png",
-      "/carousel.png",
-      "/carousel.png",
+      "/suite1/s4.jpg",
+      "/suite1/s3.jpg",
+      "/suite1/s2.jpg",
+      "/suite1/s1.jpg",
+      "/suite1/s5.jpg",
     ],
-  },
-  {
-    title: "854 Collins Ave",
-    description:
-      "Hotel 854 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
-    images: ["/carousel.png", "/carousel.png", "/carousel.png"],
-  },
-  {
-    title: "855 Collins Ave",
-    description:
-      "Hotel 855 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
-    images: ["/carousel.png", "/carousel.png", "/carousel.png"],
   },
 ];
 
@@ -469,9 +457,24 @@ export const TESTIMONIALS = [
   },
 ];
 
-
 export const BLOGS = [
-  {src:"/blog-1.jpeg",title:"Sun, Sand, and Surf: The Ultimate Guide to Miami Beach's Beaches", date:"28.04.2024", key:"1",data:""},
-  {src:"/blog-2.jpeg",title:"Beyond the Beach: Hidden Gems and Local Hangouts in Miami Beach", date:"14.02.2024", key:"2"},
-  {src:"/blog-3.jpeg",title:"Nightlife Vibes: The Hottest Clubs and Bars in Miami Beach", date:"05.01.2024", key:"3"},
-]
+  {
+    src: "/blog-1.jpeg",
+    title: "Sun, Sand, and Surf: The Ultimate Guide to Miami Beach's Beaches",
+    date: "28.04.2024",
+    key: "1",
+    data: "",
+  },
+  {
+    src: "/blog-2.jpeg",
+    title: "Beyond the Beach: Hidden Gems and Local Hangouts in Miami Beach",
+    date: "14.02.2024",
+    key: "2",
+  },
+  {
+    src: "/blog-3.jpeg",
+    title: "Nightlife Vibes: The Hottest Clubs and Bars in Miami Beach",
+    date: "05.01.2024",
+    key: "3",
+  },
+];

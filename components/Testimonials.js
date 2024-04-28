@@ -104,7 +104,7 @@ export default function Testimonials() {
           </div>
         </div>
       </div> */}
-      <div className="flex">
+      <div className="flex py-4">
         <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
         <h2 className="strike-text">
           <span className="font-bold">TESTIMONIALS</span>

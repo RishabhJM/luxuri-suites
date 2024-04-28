@@ -16,7 +16,7 @@ export default function guide() {
               className="object-cover opacity-25"
               alt=""
             ></Image>
-            <h1 className="text-3xl md:text-5xl lg:text-7xl text-center text-white top-1/2 relative">
+            <h1 className="text-3xl md:text-5xl text-center text-white top-1/2 relative">
               MIAMI BEACH GUIDE
             </h1>
           </div>

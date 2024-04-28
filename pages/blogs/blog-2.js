@@ -13,19 +13,19 @@ export default function Suite() {
   return (
     <Layout>
       <div>
-        <div className="relative w-full h-[50vh] bg-black">
+        <div className="relative w-full h-[50vh] bg-black flex justify-center">
           <Image
             src={BLOGS[blog].src}
             fill
             className="object-cover opacity-25"
             alt=""
           ></Image>
-          <h1 className="text-3xl md:text-5xl lg:text-7xl text-center text-white top-1/2 relative">
+          <h1 className="text-3xl md:text-5xl text-center text-white top-1/2 relative sm:w-3/5 text-wrap px-2">
             {BLOGS[blog].title}
           </h1>
         </div>
         <div className="px-10 sm:px-20 md:px-40 lg:px-60 py-10">
-          <div className="flex">
+          <div className="flex py-4">
             <div className="border-b-[1px] border-[#A7A098] leading-[0.1em] w-1/5 mt-[10px] mb-[20px]"></div>
             <h2 className="strike-text">
               <span className="font-bold">{BLOGS[blog].date}</span>
