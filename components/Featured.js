@@ -26,7 +26,7 @@ export default function Featured() {
         </h1>
       </div>
       <div className="flex md:flex-row flex-col">
-        <div className="w-full md:w-3/5 h-[90vh]">
+        <div className="w-full md:w-3/5 h-[80vh] md:h-[90vh]">
           <SimpleSlider
             dots={true}
             noOfSlides={1}
@@ -35,14 +35,14 @@ export default function Featured() {
             arrows={false}
           >
             {PROPERTIES_DATA[hotel].images.map((t) => (
-              <div className="relative w-fit h-[90vh]" key={t}>
+              <div className="relative w-fit h-[80vh] md:h-[90vh]" key={t}>
                 <Image src={t} className="object-cover" fill alt=""></Image>
               </div>
             ))}
           </SimpleSlider>
         </div>
         <div className="md:w-2/5 p-6 md:p-10 lg:p-16 flex flex-col justify-between">
-          <div>
+          <div className="text-center md:text-left">
             <h2 className="font text-3xl md:text-5xl lg:text-6xl font-semibold pb-6">
               {PROPERTIES_DATA[hotel].title}
             </h2>

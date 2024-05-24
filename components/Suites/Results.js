@@ -19,10 +19,10 @@ export default function Results({ suite }) {
   }
 
   return (
-    <div className="bg-[#F0F0F0] px-10 py-20">
-      <h2 className="text-5xl lg:text-7xl font-bold">{PROPERTIES_DATA[suite].title}</h2>
-      <div className="px-6 py-6 w-auto lg:w-2/3 bg-white rounded-3xl flex md:flex-row my-10 justify-center items-center shadow-lg">
-        <div className="w-full md:w-1/3 sm:px-4 flex items-center justify-center py-2">
+    <div className="bg-[#F0F0F0] px-10 pt-20">
+      <h2 className="text-4xl lg:text-7xl font-bold">{PROPERTIES_DATA[suite].title}</h2>
+      <div className="px-2 py-6 w-auto lg:w-1/2 bg-white rounded-3xl flex md:flex-row my-10 justify-center items-center shadow-lg">
+        <div className="w-full md:w-1/2 sm:px-4 flex items-center justify-center py-2 border-r-2 border-black">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -48,14 +48,14 @@ export default function Results({ suite }) {
             </label>
             <input
               type="date"
-              className="w-[70px] sm:w-[100px]"
+              className="w-[70px] sm:w-[140px]"
               id="check-in"
               value={checkIn}
               onChange={handleCheckIn}
             />
           </div>
         </div>
-        <div className="w-full md:w-1/3 sm:px-4 flex items-center border-x-2 border-y-0 justify-center border-black py-2 ">
+        <div className="w-full md:w-1/2 sm:px-4 flex items-center justify-center py-2 ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -82,13 +82,13 @@ export default function Results({ suite }) {
             <input
               type="date"
               id="check-out"
-              className="w-[70px] sm:w-[100px]"
+              className="w-[70px] sm:w-[140px]"
               value={checkOut}
               onChange={handleCheckOut}
             />
           </div>
         </div>
-        <div className="w-full md:w-1/3 sm:px-4 flex items-center py-2 justify-center">
+        {/* <div className="w-full md:w-1/3 sm:px-4 flex items-center py-2 justify-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -116,7 +116,7 @@ export default function Results({ suite }) {
               onChange={handleGuests}
             />
           </div>
-        </div>
+        </div> */}
       </div>
       <div>
         {ROOMS_DATA.map((room) => (

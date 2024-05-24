@@ -17,7 +17,7 @@ export const PROPERTIES_DATA = [
   {
     title: "852 Collins Ave",
     description:
-      "Hotel 852 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service. Reserve now",
+      "Hotel 852 on Collins Avenue is a boutique accommodation offering a blend of comfort and style in the heart of the city. With its sophisticated design, the hotel features well-appointed rooms, a variety of modern amenities, and exceptional service.",
     images: [
       "/suite2/s3.jpg",
       "/suite2/s2.jpg",
@@ -29,7 +29,7 @@ export const PROPERTIES_DATA = [
   {
     title: "Hotel Ocean",
     description:
-      "Hotel Ocean receives accolades for its impeccably clean rooms and facilities, thanks to its diligent housekeeping. The hotel's vibrant atmosphere is amplified by live music and stunning ocean views, making it a hit among guests.Its stellar location, a stone's throw from the beach and local attractions, coupled with thoughtful amenities like complimentary bikes and refreshments, adds to its charm. While some guests might long for hotter water for tea and plusher pillows, the overall value and attentive service ensure a memorable stay.",
+      "Hotel Ocean receives accolades for its impeccably clean rooms and facilities, thanks to its diligent housekeeping. The hotel's vibrant atmosphere is amplified by live music and stunning ocean views, making it a hit among guests.",
     images: [
       "/suite1/s4.jpg",
       "/suite1/s3.jpg",

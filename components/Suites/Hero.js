@@ -19,11 +19,6 @@ export default function Hero({ suite }) {
   return (
     <div className="pt-20 md:pt-24 md:px-10 bg-black">
       <div className="flex flex-col lg:flex-row">
-        {/* <div className="lg:w-3/5 relative">
-          <video controls>
-            <source src="/miami.mp4" type="video/mp4" />
-          </video>
-        </div> */}
         <div className="lg:w-3/5 h-[80vh] relative">
           <Image
             className="object-cover"
@@ -81,7 +76,7 @@ export default function Hero({ suite }) {
               ></Image>
             </div>
           </div>
-          <div className="flex flex-col justify-between py-16 md:py-16 lg:py-20 h-[40vh]">
+          <div className="hidden lg:flex flex-col justify-between py-16 md:py-16 lg:py-20 h-[40vh]">
             <div className="flex px-16 lg:px-24 justify-between">
               <div className={featureClass}>
                 <h1 className="text-white hidden group-hover:block text-center">

@@ -1,5 +1,6 @@
 import Layout from "@/components/Layout/Layout";
 import Hero from "@/components/Suites/Hero";
+import HeroMw from "@/components/Suites/HeroMw";
 import Highlight from "@/components/Suites/Highlight";
 import Manager from "@/components/Suites/Manager";
 import Results from "@/components/Suites/Results";
@@ -17,12 +18,16 @@ export default function Suite() {
     <Layout>
       {/* <Hero></Hero> */}
       <div className="bg-[#f0f0f0]">
-        <Hero suite={suiteIndex}></Hero>
+        <div className="hidden md:block"><Hero suite={suiteIndex}></Hero></div>
+        <div className="block md:hidden"><HeroMw suite={suiteIndex}></HeroMw></div>
+        {/* <HeroMw suite={suiteIndex}></HeroMw> */}
         <Results suite={suiteIndex}></Results>
         <Manager></Manager>
-        <Highlight></Highlight>
+        {/* <Highlight></Highlight> */}
       </div>
       {/* <h1>{PROPERTIES_DATA[suite].title}</h1> */}
     </Layout>
   );
 }
+
+

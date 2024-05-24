@@ -20,7 +20,7 @@ export default function guide() {
               MIAMI BEACH GUIDE
             </h1>
           </div>
-          <div className="text-center px-6 py-10 font-light text-xl bg-[#F0F0F0]">
+          <div className="text-center px-6 py-10 font-light bg-[#F0F0F0]">
             <p>
               Step into the world-renowned South Beach paradise. Experience
               vibrant nightlife with buzzing bars and clubs that keep their

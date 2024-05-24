@@ -14,7 +14,7 @@ export default function Footer() {
           </div>
           <Socials></Socials>
         </div>
-        <div className="flex flex-col lg:w-1/2 lg:pr-40">
+        {/* <div className="flex flex-col lg:w-1/2 lg:pr-40">
           <input className={inputStyle} type="text" placeholder="Name" />
           <input className={inputStyle} type="text" placeholder="Email" />
           <textarea className={inputStyle} type="text" placeholder="Message" />
@@ -25,7 +25,7 @@ export default function Footer() {
           <button type="submit" className="rounded-xl bg-[#302C33] text-white sm:w-[160px] py-2 px-4 font-bold">
             Submit
           </button>
-        </div>
+        </div> */}
       </div>
       <div className="w-full flex flex-col sm:flex-row justify-between mt-6">
         {FOOTER_LINKS.map((item) => (
