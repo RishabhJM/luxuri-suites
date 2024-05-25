@@ -21,7 +21,7 @@ export default function HeroMw(suite) {
             <Image src={t} className="object-cover" fill alt=""></Image>
           </div>
         ))}
-      </SimpleSlider>
+      </SimpleSlider><map name=""></map>
     </div>
   );
 }

@@ -19,7 +19,7 @@ export default function Results({ suite }) {
   }
 
   return (
-    <div className="bg-[#F0F0F0] px-10 pt-20">
+    <div className="bg-[#F0F0F0] px-10 pt-10">
       <h2 className="text-4xl lg:text-7xl font-bold">{PROPERTIES_DATA[suite].title}</h2>
       <div className="px-2 py-6 w-auto lg:w-1/2 bg-white rounded-3xl flex md:flex-row my-10 justify-center items-center shadow-lg">
         <div className="w-full md:w-1/2 sm:px-4 flex items-center justify-center py-2 border-r-2 border-black">
