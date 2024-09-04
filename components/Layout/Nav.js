@@ -19,7 +19,7 @@ export default function Nav() {
             xmlns="http://www.w3.org/2000/svg"
             className="w-[160px] lg:[320px] xlg:w-[320px]"
           >
-            <g clip-path="url(#clip0_327_2)">
+            <g clipPath="url(#clip0_327_2)">
               <path
                 d="M0 31.2186V0H6.49686V26.7875H20.5691V31.2163L0 31.2186Z"
                 fill="white"
@@ -61,13 +61,13 @@ export default function Nav() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-8 h-8"
+              className="w-8 h-8"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
               />
             </svg>
@@ -82,13 +82,13 @@ export default function Nav() {
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
-              stroke-width="1.5"
+              strokeWidth="1.5"
               stroke="currentColor"
-              class="w-8 h-8"
+              className="w-8 h-8"
             >
               <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
+                strokeLinecap="round"
+                strokeLinejoin="round"
                 d="M6 18 18 6M6 6l12 12"
               />
             </svg>

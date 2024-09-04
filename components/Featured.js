@@ -37,6 +37,7 @@ export default function Featured() {
             {PROPERTIES_DATA[hotel].images.map((t) => (
               <div className="relative w-fit h-[70vh] md:h-[90vh]" key={t}>
                 <Image src={t} className="object-cover" fill alt=""></Image>
+                {/* <img src={t} className="object-cover" fill alt="" /> */}
               </div>
             ))}
           </SimpleSlider>
@@ -63,13 +64,13 @@ export default function Featured() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="M15.75 19.5 8.25 12l7.5-7.5"
                   />
                 </svg>
@@ -87,13 +88,13 @@ export default function Featured() {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke-width="1.5"
+                  strokeWidth="1.5"
                   stroke="currentColor"
                   className="w-[16px] sm:w-[28px] lg:w-[36px] h-auto"
                 >
                   <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
                     d="m8.25 4.5 7.5 7.5-7.5 7.5"
                   />
                 </svg>

@@ -28,7 +28,7 @@ export default function Guide() {
             {BLOGS.map((item,index) => (
               <div key={item.key} className="px-2 py-4 sm:px-6 se:w-[500px]">
                 <div className="relative w-auto h-[400px] cursor-pointer">
-                  <Image src={item.src} className="rounded-2xl shadow-md object-cover" fill onClick={() => Router.push(`/blogs/blog-${index}`)}/>
+                  <Image src={item.src} className="rounded-2xl shadow-md object-cover" alt="" fill onClick={() => Router.push(`/blogs/blog-${index}`)}/>
                 </div>
                 <div>
                   <p className="py-4">{item.date}</p>

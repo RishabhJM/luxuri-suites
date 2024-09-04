@@ -132,6 +132,7 @@ export default function Testimonials() {
                     width={50}
                     height={50}
                     className="rounded-full mr-4 w-[50px] h-[50px]"
+                    alt=""
                   ></Image>
                   <div className="lg:text-lg text-sm">
                     <h3 className="font-semibold">{t.name}</h3>

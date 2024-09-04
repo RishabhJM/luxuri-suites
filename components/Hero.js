@@ -15,13 +15,13 @@ export default function Hero() {
         <div className="pb-2 md:pb-6">
           <svg
             width="700"
-            height=""
+            height="64"
             viewBox="0 0 207 32"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className="px-4 w-[300px] xse:w-[400px] sm:w-[500px] md:w-[400px] pb-4"
           >
-            <g clip-path="url(#clip0_327_2)">
+            <g clipPath="url(#clip0_327_2)">
               <path
                 d="M0 31.2186V0H6.49686V26.7875H20.5691V31.2163L0 31.2186Z"
                 fill="white"
