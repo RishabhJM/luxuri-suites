@@ -76,8 +76,8 @@ export default function Hero({ suite }) {
               ></Image>
             </div>
           </div>
-          <div className="hidden lg:flex flex-col justify-between py-16 md:py-16 lg:py-20 h-[40vh]">
-            <div className="flex px-16 lg:px-24 justify-between">
+          <div className="hidden lg:flex flex-col justify-between py-16 md:py-16 lg:py-12 h-[40vh]">
+            <div className="flex px-16 lg:px-20 justify-between">
               <div className={featureClass}>
                 <h1 className="text-white hidden group-hover:block text-center">
                   WIFI
@@ -134,7 +134,7 @@ export default function Hero({ suite }) {
                 </svg>
               </div>
             </div>
-            <div className="flex px-16 lg:px-24 justify-between">
+            <div className="flex px-16 lg:px-20 justify-between">
               <div className={featureClass}>
                 <h1 className="text-white hidden group-hover:block text-center">
                   GYM

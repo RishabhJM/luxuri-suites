@@ -17,7 +17,7 @@ export default function Suite() {
   return (
     <Layout>
       {/* <Hero></Hero> */}
-      <div className="bg-[#f0f0f0] py-4">
+      <div className="bg-[#f0f0f0] pb-4">
         <div className="hidden md:block"><Hero suite={suiteIndex}></Hero></div>
         <div className="block md:hidden"><HeroMw suite={suiteIndex}></HeroMw></div>
         <Results suite={suiteIndex}></Results>

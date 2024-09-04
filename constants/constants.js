@@ -459,20 +459,20 @@ export const TESTIMONIALS = [
 
 export const BLOGS = [
   {
-    src: "/blog-1.jpeg",
+    src: "/blog-1.jpeg.jpg",
     title: "Sun, Sand, and Surf: The Ultimate Guide to Miami Beach's Beaches",
     date: "28.04.2024",
     key: "1",
     data: "",
   },
   {
-    src: "/blog-2.jpeg",
+    src: "/blog-2.jpeg.jpg",
     title: "Beyond the Beach: Hidden Gems and Local Hangouts in Miami Beach",
     date: "14.02.2024",
     key: "2",
   },
   {
-    src: "/blog-3.jpeg",
+    src: "/blog-3.jpeg.jpg",
     title: "Nightlife Vibes: The Hottest Clubs and Bars in Miami Beach",
     date: "05.01.2024",
     key: "3",
