@@ -219,7 +219,7 @@ export default function Hero({ suite }) {
         <div
           className={
             "p-2 font-bold border-2 md:border-4 border-white cursor-pointer " +
-            (hotel === PROPERTIES_DATA.length
+            (hotel === PROPERTIES_DATA[suite].images.length-1
               ? "bg-black text-white"
               : "bg-white text-black")
           }
