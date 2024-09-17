@@ -23,6 +23,8 @@ jobs:
         run: |
           docker build -t ${{ secrets.DOCKER_REPOSITORY }}:${{ github.sha }} .
           docker push ${{ secrets.DOCKER_REPOSITORY }}:${{ github.sha }}
+          docker tag ${{ secrets.DOCKER_REPOSITORY }}:${{ github.sha }} ${{ secrets.DOCKER_REPOSITORY }}:latest
+          docker push ${{ secrets.DOCKER_REPOSITORY }}:latest
 
       - name: Log out from Docker Hub
         run: docker logout
